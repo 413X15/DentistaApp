@@ -25,7 +25,7 @@ constructor() { }
   }
 
   warning(message: string) {
-    alertify.warning(message);S
+    alertify.warning(message);
   }
 
   message(message: string) {
