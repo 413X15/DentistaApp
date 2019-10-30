@@ -1,0 +1,4 @@
+.col-sm {
+    display: flex; /* or inline-flex */
+    border-style: ridge;
+  }
