@@ -1,89 +1,303 @@
 <body>
-    <div class="container">
-  <div class="py-5 text-center">
-    <h2>Registro de Nuevo Paciente</h2>
-  </div>
+  <div class="container">
+    <div class="py-5 text-center">
+      <h2>Registro de Nuevo Paciente</h2>
+    </div>
 
-  <div class="row">
-    <div class="col-md-12 order-md-1">
-      <h4 class="mb-3">Datos Basicos del paciente</h4>
-      <form class="needs-validation" novalidate="">
-        <div class="row">
-          <div class="col-md-6 mb-3">
-            <label for="firstName">Nombre(s)</label>
-            <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
-            <div class="invalid-feedback">
-              Valid first name is required.
+    <div class="row">
+      <div class="col-md-12 order-md-1">
+        <h4 class="mb-3">Datos Basicos del paciente</h4>
+        <form class="needs-validation" novalidate="">
+          <div class="row">
+            <div class="col-md-4 mb-3">
+              <label for="firstName">Nombre(s)</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required="" />
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="lastNameP">Apellido Paterno</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required="" />
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <label for="lastNameM">Apellido Materno</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required="" />
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <label for="state">Sexo</label>
+              <select class="custom-select d-block w-100" id="state" required="">
+                <option value="">Elige...</option>
+                <option>Hombre</option>
+                <option>Mujer</option>
+                <option>Otro</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid sex.
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="state">Estado Civil</label>
+              <select class="custom-select d-block w-100" id="state" required="">
+                <option value="">Elige...</option>
+                <option>Soltero/a</option>
+                <option>Casado/a</option>
+                <option>Viudo/a</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid sex.
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="birthDate">Fecha de Nacimiento</label>
+              <input type="date" class="form-control" id="birthDate" placeholder="Dia/Mes/Año" value="" required="" />
+              <div class="invalid-feedback">
+                Valid Date is required.
+              </div>
             </div>
           </div>
-          <div class="col-md-6 mb-3">
-            <label for="lastName">Apellido</label>
-            <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+
+          <div class="mb-3">
+            <label for="email">Email <span class="text-muted">(Optional)</span></label>
+            <input type="email" class="form-control" id="email" placeholder="you@example.com" />
             <div class="invalid-feedback">
-              Valid last name is required.
+              Please enter a valid email address for shipping updates.
             </div>
           </div>
-        </div>
 
-        <div class="mb-3">
-          <label for="email">Email <span class="text-muted">(Optional)</span></label>
-          <input type="email" class="form-control" id="email" placeholder="you@example.com">
-          <div class="invalid-feedback">
-            Please enter a valid email address for shipping updates.
-          </div>
-        </div>
-
-        <div class="mb-3">
-          <label for="address">Direccion</label>
-          <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
-          <div class="invalid-feedback">
-            Please enter your shipping address.
-          </div>
-        </div>
-
-        <div class="mb-3">
-          <label for="address2">Direccion 2 <span class="text-muted">(Optional)</span></label>
-          <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
-        </div>
-
-        <div class="row">
-          <div class="col-md-5 mb-3">
-            <label for="country">Pais</label>
-            <select class="custom-select d-block w-100" id="country" required="">
-              <option value="">Choose...</option>
-              <option>Mexico</option>
-            </select>
+          <div class="mb-3">
+            <label for="address">Direccion</label>
+            <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="" />
             <div class="invalid-feedback">
-              Please select a valid country.
+              Please enter your shipping address.
             </div>
           </div>
-          <div class="col-md-4 mb-3">
-            <label for="state">Estado</label>
-            <select class="custom-select d-block w-100" id="state" required="">
-              <option value="">Choose...</option>
-              <option>Nuevo Leon</option>
-            </select>
-            <div class="invalid-feedback">
-              Please provide a valid state.
+
+          <div class="mb-3">
+            <label for="address2">Direccion 2 <span class="text-muted">(Optional)</span></label>
+            <input type="text" class="form-control" id="address2" placeholder="Apartment or suite" />
+          </div>
+          <div class="mb-3">
+            <label for="phone">Telefono </label>
+            <input type="number" class="form-control" id="address2" placeholder="Telefono o Celular" />
+          </div>
+          <div class="row">
+            <div class="col-md-5 mb-3">
+              <label for="country">Pais</label>
+              <select class="custom-select d-block w-100" id="country" required="">
+                <option value="">Elige...</option>
+                <option>Mexico</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid country.
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="state">Estado</label>
+              <select class="custom-select d-block w-100" id="state" required="">
+                <option value="">Elige...</option>
+                <option>Nuevo Leon</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid state.
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="zip">C.P</label>
+              <input type="text" class="form-control" id="zip" placeholder="" required="" />
+              <div class="invalid-feedback">
+                Zip code required.
+              </div>
             </div>
           </div>
-          <div class="col-md-3 mb-3">
-            <label for="zip">C.P</label>
-            <input type="text" class="form-control" id="zip" placeholder="" required="">
-            <div class="invalid-feedback">
-              Zip code required.
-            </div>
-          </div>
-          <hr class="mb-4">
-          <div class="col-md-12 order-md-1">
-            <hr class="mb-4">
-            <h4 class="mb-3">Datos Medicos del Paciente</h4>
-          </div>  
-        </div>
-        <hr class="mb-4">
-        <button class="btn btn-primary btn-lg btn-block" type="submit">Registrar</button>
-      </form>
+          <hr class="mb-4" />
+        </form>
+      </div>
     </div>
   </div>
-</div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 order-md-1">
+        <h4 class="mb-3">Datos Medicos del paciente</h4>
+        <form class="needs-validation" novalidate="">
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="firstName">Peso</label>
+              <input type="number" class="form-control" id="peso" placeholder="En Kg." value="" required="" />
+              <div class="invalid-feedback">
+                Valid Number is required.
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="lastNameP">Estatura</label>
+              <input type="number" class="form-control" id="estatura" placeholder="En Cm." value="" required="" />
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <label for="state">Tratamiento Medico Actual</label>
+              <select class="custom-select d-block w-100" id="state" required="">
+                <option value="">Elige...</option>
+                <option>Si</option>
+                <option>No</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid estate.
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <label for="state">Toma medicamentos</label>
+              <select class="custom-select d-block w-100" id="state" required="">
+                <option value="">Elige...</option>
+                <option>Si</option>
+                <option>No</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid estate.
+              </div>
+            </div>
+            
+            <div class="col-md-4 mb-3">
+              <label for="state">Alergias</label>
+              <select class="custom-select d-block w-100" id="state" required="">
+                <option value="">Elige...</option>
+                <option>Si</option>
+                <option>No</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid estate.
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <label for="state">Cardiopatas</label>
+              <select class="custom-select d-block w-100" id="state" required="">
+                <option value="">Elige...</option>
+                <option>Si</option>
+                <option>No</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid estate.
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <label for="state">Alteracion Presion Arterial</label>
+              <select class="custom-select d-block w-100" id="state" required="">
+                <option value="">Elige...</option>
+                <option>Si</option>
+                <option>No</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid estate.
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <label for="state">Diabetes</label>
+              <select class="custom-select d-block w-100" id="state" required="">
+                <option value="">Elige...</option>
+                <option>Si</option>
+                <option>No</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid estate.
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <label for="state">Discrasias Sanguineas</label>
+              <select class="custom-select d-block w-100" id="state" required="">
+                <option value="">Elige...</option>
+                <option>Si</option>
+                <option>No</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid estate.
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <label for="state">Enfermedades Renales</label>
+              <select class="custom-select d-block w-100" id="state" required="">
+                <option value="">Elige...</option>
+                <option>Si</option>
+                <option>No</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid estate.
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <label for="state">Inmunosupresion</label>
+              <select class="custom-select d-block w-100" id="state" required="">
+                <option value="">Elige...</option>
+                <option>Si</option>
+                <option>No</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid estate.
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <label for="state">Trastornos emocionales</label>
+              <select class="custom-select d-block w-100" id="state" required="">
+                <option value="">Elige...</option>
+                <option>Si</option>
+                <option>No</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid estate.
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <label for="state">Trastornos respiratorios</label>
+              <select class="custom-select d-block w-100" id="state" required="">
+                <option value="">Elige...</option>
+                <option>Si</option>
+                <option>No</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid estate.
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <label for="state">Tratastornos gastricos</label>
+              <select class="custom-select d-block w-100" id="state" required="">
+                <option value="">Elige...</option>
+                <option>Si</option>
+                <option>No</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid estate.
+              </div>
+            </div>
+          </div>
+          <hr class="mb-4" />
+
+
+          <button class="btn btn-primary btn-lg btn-block" type="submit">
+            Registrar
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
 </body>
