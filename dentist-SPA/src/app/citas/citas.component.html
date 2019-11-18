@@ -1,3 +1,60 @@
-<p>
-  citas works!
-</p>
+<body>
+  <div class="container">
+    <div class="py-5 text-center">
+      <h2>Cita Nueva para Paciente</h2>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 order-md-1">
+        <h4 class="mb-3">Paciente</h4>
+        <form class="needs-validation" novalidate="">
+          <div class="row">
+            <div class="col-md-4 mb-3">
+              <label for="firstName">Nombre(s)</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required="" />
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="lastNameP">Apellido Paterno</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required="" />
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <label for="lastNameM">Apellido Materno</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required="" />
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+
+            
+            
+            <div class="col-md-4 mb-3">
+              <label for="birthDate">Fecha de Consulta</label>
+              <input type="date" class="form-control" id="day consult" placeholder="Dia/Mes/Año" value="" required="" />
+              <div class="invalid-feedback">
+                Valid Date is required.
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <label for="birthDate">Hora de Consulta</label>
+              <input type="time" class="form-control" id="timeconsult" placeholder="Dia/Mes/Año" value="" required="" />
+              <div class="invalid-feedback">
+                Valid Time is required.
+              </div>
+            </div>
+          </div>
+          <hr class="mb-4" />
+          <button type="button" class="btn btn-lg btn-block btn-outline-info">Proceder</button>
+            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Cancelar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
