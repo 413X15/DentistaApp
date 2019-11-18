@@ -14,6 +14,8 @@ import { ErrorInterceptorProvider } from './_services/error.interceptor';
 import { MemberListComponent } from './member-list/member-list.component';
 import { CitasComponent } from './citas/citas.component';
 import { appRoutes } from './routes';
+import { UserComponent } from './user/user.component';
+import { ConsultaComponent } from './consulta/consulta.component';
 
 
 @NgModule({
@@ -24,13 +26,15 @@ import { appRoutes } from './routes';
       RegisterComponent,
       MemberListComponent,
       CitasComponent,
+      UserComponent,
+      ConsultaComponent
    ],
    imports: [
       BrowserModule,
       HttpClientModule,
       FormsModule,
       BsDropdownModule.forRoot(),
-      RouterModule.forRoot(appRoutes),
+      RouterModule.forRoot(appRoutes)
    ],
    providers: [
       ErrorInterceptorProvider,

@@ -1,0 +1,2180 @@
+<body>
+    <div class="container">
+      <div class="py-5 text-center">
+        <h2>Registro de Nuevo Paciente</h2>
+      </div>
+  
+      <div class="row">
+        <div class="col-md-12 order-md-1">
+          <h4 class="mb-3">Datos Basicos del paciente</h4>
+          <form class="needs-validation" novalidate="">
+            <div class="row">
+              <div class="col-md-4 mb-3">
+                <label for="firstName">Nombre(s)</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="" />
+                <div class="invalid-feedback">
+                  Valid first name is required.
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="lastNameP">Apellido Paterno</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="" />
+                <div class="invalid-feedback">
+                  Valid last name is required.
+                </div>
+              </div>
+  
+              <div class="col-md-4 mb-3">
+                <label for="lastNameM">Apellido Materno</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="" />
+                <div class="invalid-feedback">
+                  Valid last name is required.
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4" />
+          </form>
+        </div>
+      </div>
+    </div>
+  
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 order-md-1">
+          <h4 class="mb-3">Datos Medicos del paciente</h4>
+          <form class="needs-validation" novalidate="">
+            <div class="row">
+
+
+                <div class="col-md-3 mb-3">
+                    <label for="state">Superior 01</label>
+                    <select class="custom-select d-block w-52" id="state" required="">
+                      <option value="">Elige Estado</option>
+                      <option>AA - Ausente Antiguo+espacio</option>
+                      <option>AR - Ausente Reciente</option>
+                      <option>AB - Abrasion</option>
+                      <option>AT - Atricion</option>
+                      <option>AP - Apiñamiento</option>
+                      <option>C - Caries+sup+grado severidad</option>
+                      <option>CA - Calculos</option>
+                      <option>CC - Corona Completa</option>
+                      <option>CE - Corona Material Estetico</option>
+                      <option>DA - Diastema</option>
+                      <option>DC - Destruccion Coronal</option>
+                      <option>DI - Diente Incluido</option>
+                      <option>DL - Desgaste Leve</option>
+                      <option>DM - Desgaste Moderado Superior</option>
+                      <option>DS - Desgaste Severo Superior</option>
+                      <option>EP - Enfermedad Periodontal</option>
+                      <option>ER - Erosion</option>
+                      <option>FA - Fractura Antigua+superficie</option>
+                      <option>FR - Fractura Reciente+Superficie</option>
+                      <option>FI - Fragmento Incompleto</option>
+                      <option>HI - Hipoplasia</option>
+                      <option>IE - Incrustacion Estetica+sup</option>
+                      <option>IM - Incrustacion Metalica+sup</option>
+                      <option>MA - Macrodoncia</option>
+                      <option>NU - Nucleo</option>
+                      <option>OE - Obturacion Estetica+sup</option>
+                      <option>OT - Obturacion Temporal+sup</option>
+                      <option>PG - Pigmentacion</option>
+                      <option>PE - Parcialmente Erupcionado</option>
+                      <option>PF - Protesis Fija</option>
+                      <option>PI - Pilar</option>
+                      <option>PL - Placa Ortopedia</option>
+                      <option>PO - Pontico</option>
+                      <option>PR - Protesis Removible</option>
+                      <option>PT - PRotesis Total</option>
+                      <option>RR - Recto Redicular</option>
+                      <option>RG - Retraccion Gingival</option>
+                      <option>SA - Sin Alteracion</option>
+                      <option>SF - Sellante Fosetas y Fisuras</option>
+                      <option>SU - Suoernmerario</option>
+                      <option>TP - Talla Preprotesis</option>
+                      <option>EX - Extruido</option>
+                      <option>GR - Gresion</option>
+                      <option>IN - Intruido</option>
+                      <option>RS - Rotacion Severa</option>
+                      <option>I - Incisal</option>
+                      <option>RR - Resto Radicular</option>
+                      <option>C - Cervical</option>
+                      <option>D - Distal</option>
+                      <option>L - Lingual</option>
+                      <option>M - Mesial</option>
+                      <option>O - Oclusal</option>
+                      <option>P - Palatino</option>
+                      <option>V - Vestibular</option>
+                      <option>VE - Version</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please provide a valid state.
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 mb-3">
+                      <label for="state">Superior 02</label>
+                      <select class="custom-select d-block w-52" id="state" required="">
+                        <option value="">Elige Estado</option>
+                        <option>AA - Ausente Antiguo+espacio</option>
+                        <option>AR - Ausente Reciente</option>
+                        <option>AB - Abrasion</option>
+                        <option>AT - Atricion</option>
+                        <option>AP - Apiñamiento</option>
+                        <option>C - Caries+sup+grado severidad</option>
+                        <option>CA - Calculos</option>
+                        <option>CC - Corona Completa</option>
+                        <option>CE - Corona Material Estetico</option>
+                        <option>DA - Diastema</option>
+                        <option>DC - Destruccion Coronal</option>
+                        <option>DI - Diente Incluido</option>
+                        <option>DL - Desgaste Leve</option>
+                        <option>DM - Desgaste Moderado Superior</option>
+                        <option>DS - Desgaste Severo Superior</option>
+                        <option>EP - Enfermedad Periodontal</option>
+                        <option>ER - Erosion</option>
+                        <option>FA - Fractura Antigua+superficie</option>
+                        <option>FR - Fractura Reciente+Superficie</option>
+                        <option>FI - Fragmento Incompleto</option>
+                        <option>HI - Hipoplasia</option>
+                        <option>IE - Incrustacion Estetica+sup</option>
+                        <option>IM - Incrustacion Metalica+sup</option>
+                        <option>MA - Macrodoncia</option>
+                        <option>NU - Nucleo</option>
+                        <option>OE - Obturacion Estetica+sup</option>
+                        <option>OT - Obturacion Temporal+sup</option>
+                        <option>PG - Pigmentacion</option>
+                        <option>PE - Parcialmente Erupcionado</option>
+                        <option>PF - Protesis Fija</option>
+                        <option>PI - Pilar</option>
+                        <option>PL - Placa Ortopedia</option>
+                        <option>PO - Pontico</option>
+                        <option>PR - Protesis Removible</option>
+                        <option>PT - PRotesis Total</option>
+                        <option>RR - Recto Redicular</option>
+                        <option>RG - Retraccion Gingival</option>
+                        <option>SA - Sin Alteracion</option>
+                        <option>SF - Sellante Fosetas y Fisuras</option>
+                        <option>SU - Suoernmerario</option>
+                        <option>TP - Talla Preprotesis</option>
+                        <option>EX - Extruido</option>
+                        <option>GR - Gresion</option>
+                        <option>IN - Intruido</option>
+                        <option>RS - Rotacion Severa</option>
+                        <option>I - Incisal</option>
+                        <option>RR - Resto Radicular</option>
+                        <option>C - Cervical</option>
+                        <option>D - Distal</option>
+                        <option>L - Lingual</option>
+                        <option>M - Mesial</option>
+                        <option>O - Oclusal</option>
+                        <option>P - Palatino</option>
+                        <option>V - Vestibular</option>
+                        <option>VE - Version</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Please provide a valid state.
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                        <label for="state">Superior 03</label>
+                        <select class="custom-select d-block w-52" id="state" required="">
+                          <option value="">Elige Estado</option>
+                          <option>AA - Ausente Antiguo+espacio</option>
+                          <option>AR - Ausente Reciente</option>
+                          <option>AB - Abrasion</option>
+                          <option>AT - Atricion</option>
+                          <option>AP - Apiñamiento</option>
+                          <option>C - Caries+sup+grado severidad</option>
+                          <option>CA - Calculos</option>
+                          <option>CC - Corona Completa</option>
+                          <option>CE - Corona Material Estetico</option>
+                          <option>DA - Diastema</option>
+                          <option>DC - Destruccion Coronal</option>
+                          <option>DI - Diente Incluido</option>
+                          <option>DL - Desgaste Leve</option>
+                          <option>DM - Desgaste Moderado Superior</option>
+                          <option>DS - Desgaste Severo Superior</option>
+                          <option>EP - Enfermedad Periodontal</option>
+                          <option>ER - Erosion</option>
+                          <option>FA - Fractura Antigua+superficie</option>
+                          <option>FR - Fractura Reciente+Superficie</option>
+                          <option>FI - Fragmento Incompleto</option>
+                          <option>HI - Hipoplasia</option>
+                          <option>IE - Incrustacion Estetica+sup</option>
+                          <option>IM - Incrustacion Metalica+sup</option>
+                          <option>MA - Macrodoncia</option>
+                          <option>NU - Nucleo</option>
+                          <option>OE - Obturacion Estetica+sup</option>
+                          <option>OT - Obturacion Temporal+sup</option>
+                          <option>PG - Pigmentacion</option>
+                          <option>PE - Parcialmente Erupcionado</option>
+                          <option>PF - Protesis Fija</option>
+                          <option>PI - Pilar</option>
+                          <option>PL - Placa Ortopedia</option>
+                          <option>PO - Pontico</option>
+                          <option>PR - Protesis Removible</option>
+                          <option>PT - PRotesis Total</option>
+                          <option>RR - Recto Redicular</option>
+                          <option>RG - Retraccion Gingival</option>
+                          <option>SA - Sin Alteracion</option>
+                          <option>SF - Sellante Fosetas y Fisuras</option>
+                          <option>SU - Suoernmerario</option>
+                          <option>TP - Talla Preprotesis</option>
+                          <option>EX - Extruido</option>
+                          <option>GR - Gresion</option>
+                          <option>IN - Intruido</option>
+                          <option>RS - Rotacion Severa</option>
+                          <option>I - Incisal</option>
+                          <option>RR - Resto Radicular</option>
+                          <option>C - Cervical</option>
+                          <option>D - Distal</option>
+                          <option>L - Lingual</option>
+                          <option>M - Mesial</option>
+                          <option>O - Oclusal</option>
+                          <option>P - Palatino</option>
+                          <option>V - Vestibular</option>
+                          <option>VE - Version</option>
+                        </select>
+                        <div class="invalid-feedback">
+                          Please provide a valid state.
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3">
+                      <label for="state">Superior 04</label>
+                      <select class="custom-select d-block w-52" id="state" required="">
+                        <option value="">Elige Estado</option>
+                        <option>AA - Ausente Antiguo+espacio</option>
+                        <option>AR - Ausente Reciente</option>
+                        <option>AB - Abrasion</option>
+                        <option>AT - Atricion</option>
+                        <option>AP - Apiñamiento</option>
+                        <option>C - Caries+sup+grado severidad</option>
+                        <option>CA - Calculos</option>
+                        <option>CC - Corona Completa</option>
+                        <option>CE - Corona Material Estetico</option>
+                        <option>DA - Diastema</option>
+                        <option>DC - Destruccion Coronal</option>
+                        <option>DI - Diente Incluido</option>
+                        <option>DL - Desgaste Leve</option>
+                        <option>DM - Desgaste Moderado Superior</option>
+                        <option>DS - Desgaste Severo Superior</option>
+                        <option>EP - Enfermedad Periodontal</option>
+                        <option>ER - Erosion</option>
+                        <option>FA - Fractura Antigua+superficie</option>
+                        <option>FR - Fractura Reciente+Superficie</option>
+                        <option>FI - Fragmento Incompleto</option>
+                        <option>HI - Hipoplasia</option>
+                        <option>IE - Incrustacion Estetica+sup</option>
+                        <option>IM - Incrustacion Metalica+sup</option>
+                        <option>MA - Macrodoncia</option>
+                        <option>NU - Nucleo</option>
+                        <option>OE - Obturacion Estetica+sup</option>
+                        <option>OT - Obturacion Temporal+sup</option>
+                        <option>PG - Pigmentacion</option>
+                        <option>PE - Parcialmente Erupcionado</option>
+                        <option>PF - Protesis Fija</option>
+                        <option>PI - Pilar</option>
+                        <option>PL - Placa Ortopedia</option>
+                        <option>PO - Pontico</option>
+                        <option>PR - Protesis Removible</option>
+                        <option>PT - PRotesis Total</option>
+                        <option>RR - Recto Redicular</option>
+                        <option>RG - Retraccion Gingival</option>
+                        <option>SA - Sin Alteracion</option>
+                        <option>SF - Sellante Fosetas y Fisuras</option>
+                        <option>SU - Suoernmerario</option>
+                        <option>TP - Talla Preprotesis</option>
+                        <option>EX - Extruido</option>
+                        <option>GR - Gresion</option>
+                        <option>IN - Intruido</option>
+                        <option>RS - Rotacion Severa</option>
+                        <option>I - Incisal</option>
+                        <option>RR - Resto Radicular</option>
+                        <option>C - Cervical</option>
+                        <option>D - Distal</option>
+                        <option>L - Lingual</option>
+                        <option>M - Mesial</option>
+                        <option>O - Oclusal</option>
+                        <option>P - Palatino</option>
+                        <option>V - Vestibular</option>
+                        <option>VE - Version</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Please provide a valid state.
+                      </div>
+                    </div>
+
+                    <div class="col-md-3 mb-3">
+                        <label for="state">Superior 05</label>
+                        <select class="custom-select d-block w-52" id="state" required="">
+                          <option value="">Elige Estado</option>
+                          <option>AA - Ausente Antiguo+espacio</option>
+                          <option>AR - Ausente Reciente</option>
+                          <option>AB - Abrasion</option>
+                          <option>AT - Atricion</option>
+                          <option>AP - Apiñamiento</option>
+                          <option>C - Caries+sup+grado severidad</option>
+                          <option>CA - Calculos</option>
+                          <option>CC - Corona Completa</option>
+                          <option>CE - Corona Material Estetico</option>
+                          <option>DA - Diastema</option>
+                          <option>DC - Destruccion Coronal</option>
+                          <option>DI - Diente Incluido</option>
+                          <option>DL - Desgaste Leve</option>
+                          <option>DM - Desgaste Moderado Superior</option>
+                          <option>DS - Desgaste Severo Superior</option>
+                          <option>EP - Enfermedad Periodontal</option>
+                          <option>ER - Erosion</option>
+                          <option>FA - Fractura Antigua+superficie</option>
+                          <option>FR - Fractura Reciente+Superficie</option>
+                          <option>FI - Fragmento Incompleto</option>
+                          <option>HI - Hipoplasia</option>
+                          <option>IE - Incrustacion Estetica+sup</option>
+                          <option>IM - Incrustacion Metalica+sup</option>
+                          <option>MA - Macrodoncia</option>
+                          <option>NU - Nucleo</option>
+                          <option>OE - Obturacion Estetica+sup</option>
+                          <option>OT - Obturacion Temporal+sup</option>
+                          <option>PG - Pigmentacion</option>
+                          <option>PE - Parcialmente Erupcionado</option>
+                          <option>PF - Protesis Fija</option>
+                          <option>PI - Pilar</option>
+                          <option>PL - Placa Ortopedia</option>
+                          <option>PO - Pontico</option>
+                          <option>PR - Protesis Removible</option>
+                          <option>PT - PRotesis Total</option>
+                          <option>RR - Recto Redicular</option>
+                          <option>RG - Retraccion Gingival</option>
+                          <option>SA - Sin Alteracion</option>
+                          <option>SF - Sellante Fosetas y Fisuras</option>
+                          <option>SU - Suoernmerario</option>
+                          <option>TP - Talla Preprotesis</option>
+                          <option>EX - Extruido</option>
+                          <option>GR - Gresion</option>
+                          <option>IN - Intruido</option>
+                          <option>RS - Rotacion Severa</option>
+                          <option>I - Incisal</option>
+                          <option>RR - Resto Radicular</option>
+                          <option>C - Cervical</option>
+                          <option>D - Distal</option>
+                          <option>L - Lingual</option>
+                          <option>M - Mesial</option>
+                          <option>O - Oclusal</option>
+                          <option>P - Palatino</option>
+                          <option>V - Vestibular</option>
+                          <option>VE - Version</option>
+                        </select>
+                        <div class="invalid-feedback">
+                          Please provide a valid state.
+                        </div>
+                      </div>
+
+                      <div class="col-md-3 mb-3">
+                          <label for="state">Superior 06</label>
+                          <select class="custom-select d-block w-52" id="state" required="">
+                            <option value="">Elige Estado</option>
+                            <option>AA - Ausente Antiguo+espacio</option>
+                            <option>AR - Ausente Reciente</option>
+                            <option>AB - Abrasion</option>
+                            <option>AT - Atricion</option>
+                            <option>AP - Apiñamiento</option>
+                            <option>C - Caries+sup+grado severidad</option>
+                            <option>CA - Calculos</option>
+                            <option>CC - Corona Completa</option>
+                            <option>CE - Corona Material Estetico</option>
+                            <option>DA - Diastema</option>
+                            <option>DC - Destruccion Coronal</option>
+                            <option>DI - Diente Incluido</option>
+                            <option>DL - Desgaste Leve</option>
+                            <option>DM - Desgaste Moderado Superior</option>
+                            <option>DS - Desgaste Severo Superior</option>
+                            <option>EP - Enfermedad Periodontal</option>
+                            <option>ER - Erosion</option>
+                            <option>FA - Fractura Antigua+superficie</option>
+                            <option>FR - Fractura Reciente+Superficie</option>
+                            <option>FI - Fragmento Incompleto</option>
+                            <option>HI - Hipoplasia</option>
+                            <option>IE - Incrustacion Estetica+sup</option>
+                            <option>IM - Incrustacion Metalica+sup</option>
+                            <option>MA - Macrodoncia</option>
+                            <option>NU - Nucleo</option>
+                            <option>OE - Obturacion Estetica+sup</option>
+                            <option>OT - Obturacion Temporal+sup</option>
+                            <option>PG - Pigmentacion</option>
+                            <option>PE - Parcialmente Erupcionado</option>
+                            <option>PF - Protesis Fija</option>
+                            <option>PI - Pilar</option>
+                            <option>PL - Placa Ortopedia</option>
+                            <option>PO - Pontico</option>
+                            <option>PR - Protesis Removible</option>
+                            <option>PT - PRotesis Total</option>
+                            <option>RR - Recto Redicular</option>
+                            <option>RG - Retraccion Gingival</option>
+                            <option>SA - Sin Alteracion</option>
+                            <option>SF - Sellante Fosetas y Fisuras</option>
+                            <option>SU - Suoernmerario</option>
+                            <option>TP - Talla Preprotesis</option>
+                            <option>EX - Extruido</option>
+                            <option>GR - Gresion</option>
+                            <option>IN - Intruido</option>
+                            <option>RS - Rotacion Severa</option>
+                            <option>I - Incisal</option>
+                            <option>RR - Resto Radicular</option>
+                            <option>C - Cervical</option>
+                            <option>D - Distal</option>
+                            <option>L - Lingual</option>
+                            <option>M - Mesial</option>
+                            <option>O - Oclusal</option>
+                            <option>P - Palatino</option>
+                            <option>V - Vestibular</option>
+                            <option>VE - Version</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            Please provide a valid state.
+                          </div>
+                        </div>
+
+                        <div class="col-md-3 mb-3">
+                            <label for="state">Superior 07</label>
+                            <select class="custom-select d-block w-52" id="state" required="">
+                              <option value="">Elige Estado</option>
+                              <option>AA - Ausente Antiguo+espacio</option>
+                              <option>AR - Ausente Reciente</option>
+                              <option>AB - Abrasion</option>
+                              <option>AT - Atricion</option>
+                              <option>AP - Apiñamiento</option>
+                              <option>C - Caries+sup+grado severidad</option>
+                              <option>CA - Calculos</option>
+                              <option>CC - Corona Completa</option>
+                              <option>CE - Corona Material Estetico</option>
+                              <option>DA - Diastema</option>
+                              <option>DC - Destruccion Coronal</option>
+                              <option>DI - Diente Incluido</option>
+                              <option>DL - Desgaste Leve</option>
+                              <option>DM - Desgaste Moderado Superior</option>
+                              <option>DS - Desgaste Severo Superior</option>
+                              <option>EP - Enfermedad Periodontal</option>
+                              <option>ER - Erosion</option>
+                              <option>FA - Fractura Antigua+superficie</option>
+                              <option>FR - Fractura Reciente+Superficie</option>
+                              <option>FI - Fragmento Incompleto</option>
+                              <option>HI - Hipoplasia</option>
+                              <option>IE - Incrustacion Estetica+sup</option>
+                              <option>IM - Incrustacion Metalica+sup</option>
+                              <option>MA - Macrodoncia</option>
+                              <option>NU - Nucleo</option>
+                              <option>OE - Obturacion Estetica+sup</option>
+                              <option>OT - Obturacion Temporal+sup</option>
+                              <option>PG - Pigmentacion</option>
+                              <option>PE - Parcialmente Erupcionado</option>
+                              <option>PF - Protesis Fija</option>
+                              <option>PI - Pilar</option>
+                              <option>PL - Placa Ortopedia</option>
+                              <option>PO - Pontico</option>
+                              <option>PR - Protesis Removible</option>
+                              <option>PT - PRotesis Total</option>
+                              <option>RR - Recto Redicular</option>
+                              <option>RG - Retraccion Gingival</option>
+                              <option>SA - Sin Alteracion</option>
+                              <option>SF - Sellante Fosetas y Fisuras</option>
+                              <option>SU - Suoernmerario</option>
+                              <option>TP - Talla Preprotesis</option>
+                              <option>EX - Extruido</option>
+                              <option>GR - Gresion</option>
+                              <option>IN - Intruido</option>
+                              <option>RS - Rotacion Severa</option>
+                              <option>I - Incisal</option>
+                              <option>RR - Resto Radicular</option>
+                              <option>C - Cervical</option>
+                              <option>D - Distal</option>
+                              <option>L - Lingual</option>
+                              <option>M - Mesial</option>
+                              <option>O - Oclusal</option>
+                              <option>P - Palatino</option>
+                              <option>V - Vestibular</option>
+                              <option>VE - Version</option>
+                            </select>
+                            <div class="invalid-feedback">
+                              Please provide a valid state.
+                            </div>
+                          </div>
+
+                          <div class="col-md-3 mb-3">
+                              <label for="state">Superior 08</label>
+                              <select class="custom-select d-block w-52" id="state" required="">
+                                <option value="">Elige Estado</option>
+                                <option>AA - Ausente Antiguo+espacio</option>
+                                <option>AR - Ausente Reciente</option>
+                                <option>AB - Abrasion</option>
+                                <option>AT - Atricion</option>
+                                <option>AP - Apiñamiento</option>
+                                <option>C - Caries+sup+grado severidad</option>
+                                <option>CA - Calculos</option>
+                                <option>CC - Corona Completa</option>
+                                <option>CE - Corona Material Estetico</option>
+                                <option>DA - Diastema</option>
+                                <option>DC - Destruccion Coronal</option>
+                                <option>DI - Diente Incluido</option>
+                                <option>DL - Desgaste Leve</option>
+                                <option>DM - Desgaste Moderado Superior</option>
+                                <option>DS - Desgaste Severo Superior</option>
+                                <option>EP - Enfermedad Periodontal</option>
+                                <option>ER - Erosion</option>
+                                <option>FA - Fractura Antigua+superficie</option>
+                                <option>FR - Fractura Reciente+Superficie</option>
+                                <option>FI - Fragmento Incompleto</option>
+                                <option>HI - Hipoplasia</option>
+                                <option>IE - Incrustacion Estetica+sup</option>
+                                <option>IM - Incrustacion Metalica+sup</option>
+                                <option>MA - Macrodoncia</option>
+                                <option>NU - Nucleo</option>
+                                <option>OE - Obturacion Estetica+sup</option>
+                                <option>OT - Obturacion Temporal+sup</option>
+                                <option>PG - Pigmentacion</option>
+                                <option>PE - Parcialmente Erupcionado</option>
+                                <option>PF - Protesis Fija</option>
+                                <option>PI - Pilar</option>
+                                <option>PL - Placa Ortopedia</option>
+                                <option>PO - Pontico</option>
+                                <option>PR - Protesis Removible</option>
+                                <option>PT - PRotesis Total</option>
+                                <option>RR - Recto Redicular</option>
+                                <option>RG - Retraccion Gingival</option>
+                                <option>SA - Sin Alteracion</option>
+                                <option>SF - Sellante Fosetas y Fisuras</option>
+                                <option>SU - Suoernmerario</option>
+                                <option>TP - Talla Preprotesis</option>
+                                <option>EX - Extruido</option>
+                                <option>GR - Gresion</option>
+                                <option>IN - Intruido</option>
+                                <option>RS - Rotacion Severa</option>
+                                <option>I - Incisal</option>
+                                <option>RR - Resto Radicular</option>
+                                <option>C - Cervical</option>
+                                <option>D - Distal</option>
+                                <option>L - Lingual</option>
+                                <option>M - Mesial</option>
+                                <option>O - Oclusal</option>
+                                <option>P - Palatino</option>
+                                <option>V - Vestibular</option>
+                                <option>VE - Version</option>
+                              </select>
+                              <div class="invalid-feedback">
+                                Please provide a valid state.
+                              </div>
+                            </div>
+
+                            <div class="col-md-3 mb-3">
+                                <label for="state">Superior 09</label>
+                                <select class="custom-select d-block w-52" id="state" required="">
+                                  <option value="">Elige Estado</option>
+                                  <option>AA - Ausente Antiguo+espacio</option>
+                                  <option>AR - Ausente Reciente</option>
+                                  <option>AB - Abrasion</option>
+                                  <option>AT - Atricion</option>
+                                  <option>AP - Apiñamiento</option>
+                                  <option>C - Caries+sup+grado severidad</option>
+                                  <option>CA - Calculos</option>
+                                  <option>CC - Corona Completa</option>
+                                  <option>CE - Corona Material Estetico</option>
+                                  <option>DA - Diastema</option>
+                                  <option>DC - Destruccion Coronal</option>
+                                  <option>DI - Diente Incluido</option>
+                                  <option>DL - Desgaste Leve</option>
+                                  <option>DM - Desgaste Moderado Superior</option>
+                                  <option>DS - Desgaste Severo Superior</option>
+                                  <option>EP - Enfermedad Periodontal</option>
+                                  <option>ER - Erosion</option>
+                                  <option>FA - Fractura Antigua+superficie</option>
+                                  <option>FR - Fractura Reciente+Superficie</option>
+                                  <option>FI - Fragmento Incompleto</option>
+                                  <option>HI - Hipoplasia</option>
+                                  <option>IE - Incrustacion Estetica+sup</option>
+                                  <option>IM - Incrustacion Metalica+sup</option>
+                                  <option>MA - Macrodoncia</option>
+                                  <option>NU - Nucleo</option>
+                                  <option>OE - Obturacion Estetica+sup</option>
+                                  <option>OT - Obturacion Temporal+sup</option>
+                                  <option>PG - Pigmentacion</option>
+                                  <option>PE - Parcialmente Erupcionado</option>
+                                  <option>PF - Protesis Fija</option>
+                                  <option>PI - Pilar</option>
+                                  <option>PL - Placa Ortopedia</option>
+                                  <option>PO - Pontico</option>
+                                  <option>PR - Protesis Removible</option>
+                                  <option>PT - PRotesis Total</option>
+                                  <option>RR - Recto Redicular</option>
+                                  <option>RG - Retraccion Gingival</option>
+                                  <option>SA - Sin Alteracion</option>
+                                  <option>SF - Sellante Fosetas y Fisuras</option>
+                                  <option>SU - Suoernmerario</option>
+                                  <option>TP - Talla Preprotesis</option>
+                                  <option>EX - Extruido</option>
+                                  <option>GR - Gresion</option>
+                                  <option>IN - Intruido</option>
+                                  <option>RS - Rotacion Severa</option>
+                                  <option>I - Incisal</option>
+                                  <option>RR - Resto Radicular</option>
+                                  <option>C - Cervical</option>
+                                  <option>D - Distal</option>
+                                  <option>L - Lingual</option>
+                                  <option>M - Mesial</option>
+                                  <option>O - Oclusal</option>
+                                  <option>P - Palatino</option>
+                                  <option>V - Vestibular</option>
+                                  <option>VE - Version</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                  Please provide a valid state.
+                                </div>
+                              </div>
+
+                              <div class="col-md-3 mb-3">
+                                  <label for="state">Superior 10</label>
+                                  <select class="custom-select d-block w-52" id="state" required="">
+                                    <option value="">Elige Estado</option>
+                                    <option>AA - Ausente Antiguo+espacio</option>
+                                    <option>AR - Ausente Reciente</option>
+                                    <option>AB - Abrasion</option>
+                                    <option>AT - Atricion</option>
+                                    <option>AP - Apiñamiento</option>
+                                    <option>C - Caries+sup+grado severidad</option>
+                                    <option>CA - Calculos</option>
+                                    <option>CC - Corona Completa</option>
+                                    <option>CE - Corona Material Estetico</option>
+                                    <option>DA - Diastema</option>
+                                    <option>DC - Destruccion Coronal</option>
+                                    <option>DI - Diente Incluido</option>
+                                    <option>DL - Desgaste Leve</option>
+                                    <option>DM - Desgaste Moderado Superior</option>
+                                    <option>DS - Desgaste Severo Superior</option>
+                                    <option>EP - Enfermedad Periodontal</option>
+                                    <option>ER - Erosion</option>
+                                    <option>FA - Fractura Antigua+superficie</option>
+                                    <option>FR - Fractura Reciente+Superficie</option>
+                                    <option>FI - Fragmento Incompleto</option>
+                                    <option>HI - Hipoplasia</option>
+                                    <option>IE - Incrustacion Estetica+sup</option>
+                                    <option>IM - Incrustacion Metalica+sup</option>
+                                    <option>MA - Macrodoncia</option>
+                                    <option>NU - Nucleo</option>
+                                    <option>OE - Obturacion Estetica+sup</option>
+                                    <option>OT - Obturacion Temporal+sup</option>
+                                    <option>PG - Pigmentacion</option>
+                                    <option>PE - Parcialmente Erupcionado</option>
+                                    <option>PF - Protesis Fija</option>
+                                    <option>PI - Pilar</option>
+                                    <option>PL - Placa Ortopedia</option>
+                                    <option>PO - Pontico</option>
+                                    <option>PR - Protesis Removible</option>
+                                    <option>PT - PRotesis Total</option>
+                                    <option>RR - Recto Redicular</option>
+                                    <option>RG - Retraccion Gingival</option>
+                                    <option>SA - Sin Alteracion</option>
+                                    <option>SF - Sellante Fosetas y Fisuras</option>
+                                    <option>SU - Suoernmerario</option>
+                                    <option>TP - Talla Preprotesis</option>
+                                    <option>EX - Extruido</option>
+                                    <option>GR - Gresion</option>
+                                    <option>IN - Intruido</option>
+                                    <option>RS - Rotacion Severa</option>
+                                    <option>I - Incisal</option>
+                                    <option>RR - Resto Radicular</option>
+                                    <option>C - Cervical</option>
+                                    <option>D - Distal</option>
+                                    <option>L - Lingual</option>
+                                    <option>M - Mesial</option>
+                                    <option>O - Oclusal</option>
+                                    <option>P - Palatino</option>
+                                    <option>V - Vestibular</option>
+                                    <option>VE - Version</option>
+                                  </select>
+                                  <div class="invalid-feedback">
+                                    Please provide a valid state.
+                                  </div>
+                                </div>
+
+                                <div class="col-md-3 mb-3">
+                                    <label for="state">Superior 11</label>
+                                    <select class="custom-select d-block w-52" id="state" required="">
+                                      <option value="">Elige Estado</option>
+                                      <option>AA - Ausente Antiguo+espacio</option>
+                                      <option>AR - Ausente Reciente</option>
+                                      <option>AB - Abrasion</option>
+                                      <option>AT - Atricion</option>
+                                      <option>AP - Apiñamiento</option>
+                                      <option>C - Caries+sup+grado severidad</option>
+                                      <option>CA - Calculos</option>
+                                      <option>CC - Corona Completa</option>
+                                      <option>CE - Corona Material Estetico</option>
+                                      <option>DA - Diastema</option>
+                                      <option>DC - Destruccion Coronal</option>
+                                      <option>DI - Diente Incluido</option>
+                                      <option>DL - Desgaste Leve</option>
+                                      <option>DM - Desgaste Moderado Superior</option>
+                                      <option>DS - Desgaste Severo Superior</option>
+                                      <option>EP - Enfermedad Periodontal</option>
+                                      <option>ER - Erosion</option>
+                                      <option>FA - Fractura Antigua+superficie</option>
+                                      <option>FR - Fractura Reciente+Superficie</option>
+                                      <option>FI - Fragmento Incompleto</option>
+                                      <option>HI - Hipoplasia</option>
+                                      <option>IE - Incrustacion Estetica+sup</option>
+                                      <option>IM - Incrustacion Metalica+sup</option>
+                                      <option>MA - Macrodoncia</option>
+                                      <option>NU - Nucleo</option>
+                                      <option>OE - Obturacion Estetica+sup</option>
+                                      <option>OT - Obturacion Temporal+sup</option>
+                                      <option>PG - Pigmentacion</option>
+                                      <option>PE - Parcialmente Erupcionado</option>
+                                      <option>PF - Protesis Fija</option>
+                                      <option>PI - Pilar</option>
+                                      <option>PL - Placa Ortopedia</option>
+                                      <option>PO - Pontico</option>
+                                      <option>PR - Protesis Removible</option>
+                                      <option>PT - PRotesis Total</option>
+                                      <option>RR - Recto Redicular</option>
+                                      <option>RG - Retraccion Gingival</option>
+                                      <option>SA - Sin Alteracion</option>
+                                      <option>SF - Sellante Fosetas y Fisuras</option>
+                                      <option>SU - Suoernmerario</option>
+                                      <option>TP - Talla Preprotesis</option>
+                                      <option>EX - Extruido</option>
+                                      <option>GR - Gresion</option>
+                                      <option>IN - Intruido</option>
+                                      <option>RS - Rotacion Severa</option>
+                                      <option>I - Incisal</option>
+                                      <option>RR - Resto Radicular</option>
+                                      <option>C - Cervical</option>
+                                      <option>D - Distal</option>
+                                      <option>L - Lingual</option>
+                                      <option>M - Mesial</option>
+                                      <option>O - Oclusal</option>
+                                      <option>P - Palatino</option>
+                                      <option>V - Vestibular</option>
+                                      <option>VE - Version</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                      Please provide a valid state.
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-3 mb-3">
+                                      <label for="state">Superior 12</label>
+                                      <select class="custom-select d-block w-52" id="state" required="">
+                                        <option value="">Elige Estado</option>
+                                        <option>AA - Ausente Antiguo+espacio</option>
+                                        <option>AR - Ausente Reciente</option>
+                                        <option>AB - Abrasion</option>
+                                        <option>AT - Atricion</option>
+                                        <option>AP - Apiñamiento</option>
+                                        <option>C - Caries+sup+grado severidad</option>
+                                        <option>CA - Calculos</option>
+                                        <option>CC - Corona Completa</option>
+                                        <option>CE - Corona Material Estetico</option>
+                                        <option>DA - Diastema</option>
+                                        <option>DC - Destruccion Coronal</option>
+                                        <option>DI - Diente Incluido</option>
+                                        <option>DL - Desgaste Leve</option>
+                                        <option>DM - Desgaste Moderado Superior</option>
+                                        <option>DS - Desgaste Severo Superior</option>
+                                        <option>EP - Enfermedad Periodontal</option>
+                                        <option>ER - Erosion</option>
+                                        <option>FA - Fractura Antigua+superficie</option>
+                                        <option>FR - Fractura Reciente+Superficie</option>
+                                        <option>FI - Fragmento Incompleto</option>
+                                        <option>HI - Hipoplasia</option>
+                                        <option>IE - Incrustacion Estetica+sup</option>
+                                        <option>IM - Incrustacion Metalica+sup</option>
+                                        <option>MA - Macrodoncia</option>
+                                        <option>NU - Nucleo</option>
+                                        <option>OE - Obturacion Estetica+sup</option>
+                                        <option>OT - Obturacion Temporal+sup</option>
+                                        <option>PG - Pigmentacion</option>
+                                        <option>PE - Parcialmente Erupcionado</option>
+                                        <option>PF - Protesis Fija</option>
+                                        <option>PI - Pilar</option>
+                                        <option>PL - Placa Ortopedia</option>
+                                        <option>PO - Pontico</option>
+                                        <option>PR - Protesis Removible</option>
+                                        <option>PT - PRotesis Total</option>
+                                        <option>RR - Recto Redicular</option>
+                                        <option>RG - Retraccion Gingival</option>
+                                        <option>SA - Sin Alteracion</option>
+                                        <option>SF - Sellante Fosetas y Fisuras</option>
+                                        <option>SU - Suoernmerario</option>
+                                        <option>TP - Talla Preprotesis</option>
+                                        <option>EX - Extruido</option>
+                                        <option>GR - Gresion</option>
+                                        <option>IN - Intruido</option>
+                                        <option>RS - Rotacion Severa</option>
+                                        <option>I - Incisal</option>
+                                        <option>RR - Resto Radicular</option>
+                                        <option>C - Cervical</option>
+                                        <option>D - Distal</option>
+                                        <option>L - Lingual</option>
+                                        <option>M - Mesial</option>
+                                        <option>O - Oclusal</option>
+                                        <option>P - Palatino</option>
+                                        <option>V - Vestibular</option>
+                                        <option>VE - Version</option>
+                                      </select>
+                                      <div class="invalid-feedback">
+                                        Please provide a valid state.
+                                      </div>
+                                    </div>
+
+                                    <div class="col-md-3 mb-3">
+                                        <label for="state">Superior 13</label>
+                                        <select class="custom-select d-block w-52" id="state" required="">
+                                          <option value="">Elige Estado</option>
+                                          <option>AA - Ausente Antiguo+espacio</option>
+                                          <option>AR - Ausente Reciente</option>
+                                          <option>AB - Abrasion</option>
+                                          <option>AT - Atricion</option>
+                                          <option>AP - Apiñamiento</option>
+                                          <option>C - Caries+sup+grado severidad</option>
+                                          <option>CA - Calculos</option>
+                                          <option>CC - Corona Completa</option>
+                                          <option>CE - Corona Material Estetico</option>
+                                          <option>DA - Diastema</option>
+                                          <option>DC - Destruccion Coronal</option>
+                                          <option>DI - Diente Incluido</option>
+                                          <option>DL - Desgaste Leve</option>
+                                          <option>DM - Desgaste Moderado Superior</option>
+                                          <option>DS - Desgaste Severo Superior</option>
+                                          <option>EP - Enfermedad Periodontal</option>
+                                          <option>ER - Erosion</option>
+                                          <option>FA - Fractura Antigua+superficie</option>
+                                          <option>FR - Fractura Reciente+Superficie</option>
+                                          <option>FI - Fragmento Incompleto</option>
+                                          <option>HI - Hipoplasia</option>
+                                          <option>IE - Incrustacion Estetica+sup</option>
+                                          <option>IM - Incrustacion Metalica+sup</option>
+                                          <option>MA - Macrodoncia</option>
+                                          <option>NU - Nucleo</option>
+                                          <option>OE - Obturacion Estetica+sup</option>
+                                          <option>OT - Obturacion Temporal+sup</option>
+                                          <option>PG - Pigmentacion</option>
+                                          <option>PE - Parcialmente Erupcionado</option>
+                                          <option>PF - Protesis Fija</option>
+                                          <option>PI - Pilar</option>
+                                          <option>PL - Placa Ortopedia</option>
+                                          <option>PO - Pontico</option>
+                                          <option>PR - Protesis Removible</option>
+                                          <option>PT - PRotesis Total</option>
+                                          <option>RR - Recto Redicular</option>
+                                          <option>RG - Retraccion Gingival</option>
+                                          <option>SA - Sin Alteracion</option>
+                                          <option>SF - Sellante Fosetas y Fisuras</option>
+                                          <option>SU - Suoernmerario</option>
+                                          <option>TP - Talla Preprotesis</option>
+                                          <option>EX - Extruido</option>
+                                          <option>GR - Gresion</option>
+                                          <option>IN - Intruido</option>
+                                          <option>RS - Rotacion Severa</option>
+                                          <option>I - Incisal</option>
+                                          <option>RR - Resto Radicular</option>
+                                          <option>C - Cervical</option>
+                                          <option>D - Distal</option>
+                                          <option>L - Lingual</option>
+                                          <option>M - Mesial</option>
+                                          <option>O - Oclusal</option>
+                                          <option>P - Palatino</option>
+                                          <option>V - Vestibular</option>
+                                          <option>VE - Version</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                          Please provide a valid state.
+                                        </div>
+                                      </div>
+
+                                      <div class="col-md-3 mb-3">
+                                          <label for="state">Superior 14</label>
+                                          <select class="custom-select d-block w-52" id="state" required="">
+                                            <option value="">Elige Estado</option>
+                                            <option>AA - Ausente Antiguo+espacio</option>
+                                            <option>AR - Ausente Reciente</option>
+                                            <option>AB - Abrasion</option>
+                                            <option>AT - Atricion</option>
+                                            <option>AP - Apiñamiento</option>
+                                            <option>C - Caries+sup+grado severidad</option>
+                                            <option>CA - Calculos</option>
+                                            <option>CC - Corona Completa</option>
+                                            <option>CE - Corona Material Estetico</option>
+                                            <option>DA - Diastema</option>
+                                            <option>DC - Destruccion Coronal</option>
+                                            <option>DI - Diente Incluido</option>
+                                            <option>DL - Desgaste Leve</option>
+                                            <option>DM - Desgaste Moderado Superior</option>
+                                            <option>DS - Desgaste Severo Superior</option>
+                                            <option>EP - Enfermedad Periodontal</option>
+                                            <option>ER - Erosion</option>
+                                            <option>FA - Fractura Antigua+superficie</option>
+                                            <option>FR - Fractura Reciente+Superficie</option>
+                                            <option>FI - Fragmento Incompleto</option>
+                                            <option>HI - Hipoplasia</option>
+                                            <option>IE - Incrustacion Estetica+sup</option>
+                                            <option>IM - Incrustacion Metalica+sup</option>
+                                            <option>MA - Macrodoncia</option>
+                                            <option>NU - Nucleo</option>
+                                            <option>OE - Obturacion Estetica+sup</option>
+                                            <option>OT - Obturacion Temporal+sup</option>
+                                            <option>PG - Pigmentacion</option>
+                                            <option>PE - Parcialmente Erupcionado</option>
+                                            <option>PF - Protesis Fija</option>
+                                            <option>PI - Pilar</option>
+                                            <option>PL - Placa Ortopedia</option>
+                                            <option>PO - Pontico</option>
+                                            <option>PR - Protesis Removible</option>
+                                            <option>PT - PRotesis Total</option>
+                                            <option>RR - Recto Redicular</option>
+                                            <option>RG - Retraccion Gingival</option>
+                                            <option>SA - Sin Alteracion</option>
+                                            <option>SF - Sellante Fosetas y Fisuras</option>
+                                            <option>SU - Suoernmerario</option>
+                                            <option>TP - Talla Preprotesis</option>
+                                            <option>EX - Extruido</option>
+                                            <option>GR - Gresion</option>
+                                            <option>IN - Intruido</option>
+                                            <option>RS - Rotacion Severa</option>
+                                            <option>I - Incisal</option>
+                                            <option>RR - Resto Radicular</option>
+                                            <option>C - Cervical</option>
+                                            <option>D - Distal</option>
+                                            <option>L - Lingual</option>
+                                            <option>M - Mesial</option>
+                                            <option>O - Oclusal</option>
+                                            <option>P - Palatino</option>
+                                            <option>V - Vestibular</option>
+                                            <option>VE - Version</option>
+                                          </select>
+                                          <div class="invalid-feedback">
+                                            Please provide a valid state.
+                                          </div>
+                                        </div>
+
+                                        <div class="col-md-3 mb-3">
+                                            <label for="state">Superior 15</label>
+                                            <select class="custom-select d-block w-52" id="state" required="">
+                                              <option value="">Elige Estado</option>
+                                              <option>AA - Ausente Antiguo+espacio</option>
+                                              <option>AR - Ausente Reciente</option>
+                                              <option>AB - Abrasion</option>
+                                              <option>AT - Atricion</option>
+                                              <option>AP - Apiñamiento</option>
+                                              <option>C - Caries+sup+grado severidad</option>
+                                              <option>CA - Calculos</option>
+                                              <option>CC - Corona Completa</option>
+                                              <option>CE - Corona Material Estetico</option>
+                                              <option>DA - Diastema</option>
+                                              <option>DC - Destruccion Coronal</option>
+                                              <option>DI - Diente Incluido</option>
+                                              <option>DL - Desgaste Leve</option>
+                                              <option>DM - Desgaste Moderado Superior</option>
+                                              <option>DS - Desgaste Severo Superior</option>
+                                              <option>EP - Enfermedad Periodontal</option>
+                                              <option>ER - Erosion</option>
+                                              <option>FA - Fractura Antigua+superficie</option>
+                                              <option>FR - Fractura Reciente+Superficie</option>
+                                              <option>FI - Fragmento Incompleto</option>
+                                              <option>HI - Hipoplasia</option>
+                                              <option>IE - Incrustacion Estetica+sup</option>
+                                              <option>IM - Incrustacion Metalica+sup</option>
+                                              <option>MA - Macrodoncia</option>
+                                              <option>NU - Nucleo</option>
+                                              <option>OE - Obturacion Estetica+sup</option>
+                                              <option>OT - Obturacion Temporal+sup</option>
+                                              <option>PG - Pigmentacion</option>
+                                              <option>PE - Parcialmente Erupcionado</option>
+                                              <option>PF - Protesis Fija</option>
+                                              <option>PI - Pilar</option>
+                                              <option>PL - Placa Ortopedia</option>
+                                              <option>PO - Pontico</option>
+                                              <option>PR - Protesis Removible</option>
+                                              <option>PT - PRotesis Total</option>
+                                              <option>RR - Recto Redicular</option>
+                                              <option>RG - Retraccion Gingival</option>
+                                              <option>SA - Sin Alteracion</option>
+                                              <option>SF - Sellante Fosetas y Fisuras</option>
+                                              <option>SU - Suoernmerario</option>
+                                              <option>TP - Talla Preprotesis</option>
+                                              <option>EX - Extruido</option>
+                                              <option>GR - Gresion</option>
+                                              <option>IN - Intruido</option>
+                                              <option>RS - Rotacion Severa</option>
+                                              <option>I - Incisal</option>
+                                              <option>RR - Resto Radicular</option>
+                                              <option>C - Cervical</option>
+                                              <option>D - Distal</option>
+                                              <option>L - Lingual</option>
+                                              <option>M - Mesial</option>
+                                              <option>O - Oclusal</option>
+                                              <option>P - Palatino</option>
+                                              <option>V - Vestibular</option>
+                                              <option>VE - Version</option>
+                                            </select>
+                                            <div class="invalid-feedback">
+                                              Please provide a valid state.
+                                            </div>
+                                          </div>
+
+                                          <div class="col-md-3 mb-3">
+                                              <label for="state">Superior 16</label>
+                                              <select class="custom-select d-block w-52" id="state" required="">
+                                                <option value="">Elige Estado</option>
+                                                <option>AA - Ausente Antiguo+espacio</option>
+                                                <option>AR - Ausente Reciente</option>
+                                                <option>AB - Abrasion</option>
+                                                <option>AT - Atricion</option>
+                                                <option>AP - Apiñamiento</option>
+                                                <option>C - Caries+sup+grado severidad</option>
+                                                <option>CA - Calculos</option>
+                                                <option>CC - Corona Completa</option>
+                                                <option>CE - Corona Material Estetico</option>
+                                                <option>DA - Diastema</option>
+                                                <option>DC - Destruccion Coronal</option>
+                                                <option>DI - Diente Incluido</option>
+                                                <option>DL - Desgaste Leve</option>
+                                                <option>DM - Desgaste Moderado Superior</option>
+                                                <option>DS - Desgaste Severo Superior</option>
+                                                <option>EP - Enfermedad Periodontal</option>
+                                                <option>ER - Erosion</option>
+                                                <option>FA - Fractura Antigua+superficie</option>
+                                                <option>FR - Fractura Reciente+Superficie</option>
+                                                <option>FI - Fragmento Incompleto</option>
+                                                <option>HI - Hipoplasia</option>
+                                                <option>IE - Incrustacion Estetica+sup</option>
+                                                <option>IM - Incrustacion Metalica+sup</option>
+                                                <option>MA - Macrodoncia</option>
+                                                <option>NU - Nucleo</option>
+                                                <option>OE - Obturacion Estetica+sup</option>
+                                                <option>OT - Obturacion Temporal+sup</option>
+                                                <option>PG - Pigmentacion</option>
+                                                <option>PE - Parcialmente Erupcionado</option>
+                                                <option>PF - Protesis Fija</option>
+                                                <option>PI - Pilar</option>
+                                                <option>PL - Placa Ortopedia</option>
+                                                <option>PO - Pontico</option>
+                                                <option>PR - Protesis Removible</option>
+                                                <option>PT - PRotesis Total</option>
+                                                <option>RR - Recto Redicular</option>
+                                                <option>RG - Retraccion Gingival</option>
+                                                <option>SA - Sin Alteracion</option>
+                                                <option>SF - Sellante Fosetas y Fisuras</option>
+                                                <option>SU - Suoernmerario</option>
+                                                <option>TP - Talla Preprotesis</option>
+                                                <option>EX - Extruido</option>
+                                                <option>GR - Gresion</option>
+                                                <option>IN - Intruido</option>
+                                                <option>RS - Rotacion Severa</option>
+                                                <option>I - Incisal</option>
+                                                <option>RR - Resto Radicular</option>
+                                                <option>C - Cervical</option>
+                                                <option>D - Distal</option>
+                                                <option>L - Lingual</option>
+                                                <option>M - Mesial</option>
+                                                <option>O - Oclusal</option>
+                                                <option>P - Palatino</option>
+                                                <option>V - Vestibular</option>
+                                                <option>VE - Version</option>
+                                              </select>
+                                              <div class="invalid-feedback">
+                                                Please provide a valid state.
+                                              </div>
+                                            </div>
+
+
+
+            </div>
+            
+          </form>
+        </div>
+        
+      </div>
+      <hr class="mb-4" />
+    </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12 order-md-1">
+            <form class="needs-validation" novalidate="">
+              <div class="row">
+  
+  
+                  <div class="col-md-3 mb-3">
+                      <label for="state">Inferior 01</label>
+                      <select class="custom-select d-block w-52" id="state" required="">
+                        <option value="">Elige Estado</option>
+                        <option>AA - Ausente Antiguo+espacio</option>
+                        <option>AR - Ausente Reciente</option>
+                        <option>AB - Abrasion</option>
+                        <option>AT - Atricion</option>
+                        <option>AP - Apiñamiento</option>
+                        <option>C - Caries+sup+grado severidad</option>
+                        <option>CA - Calculos</option>
+                        <option>CC - Corona Completa</option>
+                        <option>CE - Corona Material Estetico</option>
+                        <option>DA - Diastema</option>
+                        <option>DC - Destruccion Coronal</option>
+                        <option>DI - Diente Incluido</option>
+                        <option>DL - Desgaste Leve</option>
+                        <option>DM - Desgaste Moderado Superior</option>
+                        <option>DS - Desgaste Severo Superior</option>
+                        <option>EP - Enfermedad Periodontal</option>
+                        <option>ER - Erosion</option>
+                        <option>FA - Fractura Antigua+superficie</option>
+                        <option>FR - Fractura Reciente+Superficie</option>
+                        <option>FI - Fragmento Incompleto</option>
+                        <option>HI - Hipoplasia</option>
+                        <option>IE - Incrustacion Estetica+sup</option>
+                        <option>IM - Incrustacion Metalica+sup</option>
+                        <option>MA - Macrodoncia</option>
+                        <option>NU - Nucleo</option>
+                        <option>OE - Obturacion Estetica+sup</option>
+                        <option>OT - Obturacion Temporal+sup</option>
+                        <option>PG - Pigmentacion</option>
+                        <option>PE - Parcialmente Erupcionado</option>
+                        <option>PF - Protesis Fija</option>
+                        <option>PI - Pilar</option>
+                        <option>PL - Placa Ortopedia</option>
+                        <option>PO - Pontico</option>
+                        <option>PR - Protesis Removible</option>
+                        <option>PT - PRotesis Total</option>
+                        <option>RR - Recto Redicular</option>
+                        <option>RG - Retraccion Gingival</option>
+                        <option>SA - Sin Alteracion</option>
+                        <option>SF - Sellante Fosetas y Fisuras</option>
+                        <option>SU - Suoernmerario</option>
+                        <option>TP - Talla Preprotesis</option>
+                        <option>EX - Extruido</option>
+                        <option>GR - Gresion</option>
+                        <option>IN - Intruido</option>
+                        <option>RS - Rotacion Severa</option>
+                        <option>I - Incisal</option>
+                        <option>RR - Resto Radicular</option>
+                        <option>C - Cervical</option>
+                        <option>D - Distal</option>
+                        <option>L - Lingual</option>
+                        <option>M - Mesial</option>
+                        <option>O - Oclusal</option>
+                        <option>P - Palatino</option>
+                        <option>V - Vestibular</option>
+                        <option>VE - Version</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Please provide a valid state.
+                      </div>
+                    </div>
+  
+                    <div class="col-md-3 mb-3">
+                        <label for="state">Inferior 02</label>
+                        <select class="custom-select d-block w-52" id="state" required="">
+                          <option value="">Elige Estado</option>
+                          <option>AA - Ausente Antiguo+espacio</option>
+                          <option>AR - Ausente Reciente</option>
+                          <option>AB - Abrasion</option>
+                          <option>AT - Atricion</option>
+                          <option>AP - Apiñamiento</option>
+                          <option>C - Caries+sup+grado severidad</option>
+                          <option>CA - Calculos</option>
+                          <option>CC - Corona Completa</option>
+                          <option>CE - Corona Material Estetico</option>
+                          <option>DA - Diastema</option>
+                          <option>DC - Destruccion Coronal</option>
+                          <option>DI - Diente Incluido</option>
+                          <option>DL - Desgaste Leve</option>
+                          <option>DM - Desgaste Moderado Superior</option>
+                          <option>DS - Desgaste Severo Superior</option>
+                          <option>EP - Enfermedad Periodontal</option>
+                          <option>ER - Erosion</option>
+                          <option>FA - Fractura Antigua+superficie</option>
+                          <option>FR - Fractura Reciente+Superficie</option>
+                          <option>FI - Fragmento Incompleto</option>
+                          <option>HI - Hipoplasia</option>
+                          <option>IE - Incrustacion Estetica+sup</option>
+                          <option>IM - Incrustacion Metalica+sup</option>
+                          <option>MA - Macrodoncia</option>
+                          <option>NU - Nucleo</option>
+                          <option>OE - Obturacion Estetica+sup</option>
+                          <option>OT - Obturacion Temporal+sup</option>
+                          <option>PG - Pigmentacion</option>
+                          <option>PE - Parcialmente Erupcionado</option>
+                          <option>PF - Protesis Fija</option>
+                          <option>PI - Pilar</option>
+                          <option>PL - Placa Ortopedia</option>
+                          <option>PO - Pontico</option>
+                          <option>PR - Protesis Removible</option>
+                          <option>PT - PRotesis Total</option>
+                          <option>RR - Recto Redicular</option>
+                          <option>RG - Retraccion Gingival</option>
+                          <option>SA - Sin Alteracion</option>
+                          <option>SF - Sellante Fosetas y Fisuras</option>
+                          <option>SU - Suoernmerario</option>
+                          <option>TP - Talla Preprotesis</option>
+                          <option>EX - Extruido</option>
+                          <option>GR - Gresion</option>
+                          <option>IN - Intruido</option>
+                          <option>RS - Rotacion Severa</option>
+                          <option>I - Incisal</option>
+                          <option>RR - Resto Radicular</option>
+                          <option>C - Cervical</option>
+                          <option>D - Distal</option>
+                          <option>L - Lingual</option>
+                          <option>M - Mesial</option>
+                          <option>O - Oclusal</option>
+                          <option>P - Palatino</option>
+                          <option>V - Vestibular</option>
+                          <option>VE - Version</option>
+                        </select>
+                        <div class="invalid-feedback">
+                          Please provide a valid state.
+                        </div>
+                      </div>
+  
+                      <div class="col-md-3 mb-3">
+                          <label for="state">Inferior 03</label>
+                          <select class="custom-select d-block w-52" id="state" required="">
+                            <option value="">Elige Estado</option>
+                            <option>AA - Ausente Antiguo+espacio</option>
+                            <option>AR - Ausente Reciente</option>
+                            <option>AB - Abrasion</option>
+                            <option>AT - Atricion</option>
+                            <option>AP - Apiñamiento</option>
+                            <option>C - Caries+sup+grado severidad</option>
+                            <option>CA - Calculos</option>
+                            <option>CC - Corona Completa</option>
+                            <option>CE - Corona Material Estetico</option>
+                            <option>DA - Diastema</option>
+                            <option>DC - Destruccion Coronal</option>
+                            <option>DI - Diente Incluido</option>
+                            <option>DL - Desgaste Leve</option>
+                            <option>DM - Desgaste Moderado Superior</option>
+                            <option>DS - Desgaste Severo Superior</option>
+                            <option>EP - Enfermedad Periodontal</option>
+                            <option>ER - Erosion</option>
+                            <option>FA - Fractura Antigua+superficie</option>
+                            <option>FR - Fractura Reciente+Superficie</option>
+                            <option>FI - Fragmento Incompleto</option>
+                            <option>HI - Hipoplasia</option>
+                            <option>IE - Incrustacion Estetica+sup</option>
+                            <option>IM - Incrustacion Metalica+sup</option>
+                            <option>MA - Macrodoncia</option>
+                            <option>NU - Nucleo</option>
+                            <option>OE - Obturacion Estetica+sup</option>
+                            <option>OT - Obturacion Temporal+sup</option>
+                            <option>PG - Pigmentacion</option>
+                            <option>PE - Parcialmente Erupcionado</option>
+                            <option>PF - Protesis Fija</option>
+                            <option>PI - Pilar</option>
+                            <option>PL - Placa Ortopedia</option>
+                            <option>PO - Pontico</option>
+                            <option>PR - Protesis Removible</option>
+                            <option>PT - PRotesis Total</option>
+                            <option>RR - Recto Redicular</option>
+                            <option>RG - Retraccion Gingival</option>
+                            <option>SA - Sin Alteracion</option>
+                            <option>SF - Sellante Fosetas y Fisuras</option>
+                            <option>SU - Suoernmerario</option>
+                            <option>TP - Talla Preprotesis</option>
+                            <option>EX - Extruido</option>
+                            <option>GR - Gresion</option>
+                            <option>IN - Intruido</option>
+                            <option>RS - Rotacion Severa</option>
+                            <option>I - Incisal</option>
+                            <option>RR - Resto Radicular</option>
+                            <option>C - Cervical</option>
+                            <option>D - Distal</option>
+                            <option>L - Lingual</option>
+                            <option>M - Mesial</option>
+                            <option>O - Oclusal</option>
+                            <option>P - Palatino</option>
+                            <option>V - Vestibular</option>
+                            <option>VE - Version</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            Please provide a valid state.
+                          </div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                        <label for="state">Inferior 04</label>
+                        <select class="custom-select d-block w-52" id="state" required="">
+                          <option value="">Elige Estado</option>
+                          <option>AA - Ausente Antiguo+espacio</option>
+                          <option>AR - Ausente Reciente</option>
+                          <option>AB - Abrasion</option>
+                          <option>AT - Atricion</option>
+                          <option>AP - Apiñamiento</option>
+                          <option>C - Caries+sup+grado severidad</option>
+                          <option>CA - Calculos</option>
+                          <option>CC - Corona Completa</option>
+                          <option>CE - Corona Material Estetico</option>
+                          <option>DA - Diastema</option>
+                          <option>DC - Destruccion Coronal</option>
+                          <option>DI - Diente Incluido</option>
+                          <option>DL - Desgaste Leve</option>
+                          <option>DM - Desgaste Moderado Superior</option>
+                          <option>DS - Desgaste Severo Superior</option>
+                          <option>EP - Enfermedad Periodontal</option>
+                          <option>ER - Erosion</option>
+                          <option>FA - Fractura Antigua+superficie</option>
+                          <option>FR - Fractura Reciente+Superficie</option>
+                          <option>FI - Fragmento Incompleto</option>
+                          <option>HI - Hipoplasia</option>
+                          <option>IE - Incrustacion Estetica+sup</option>
+                          <option>IM - Incrustacion Metalica+sup</option>
+                          <option>MA - Macrodoncia</option>
+                          <option>NU - Nucleo</option>
+                          <option>OE - Obturacion Estetica+sup</option>
+                          <option>OT - Obturacion Temporal+sup</option>
+                          <option>PG - Pigmentacion</option>
+                          <option>PE - Parcialmente Erupcionado</option>
+                          <option>PF - Protesis Fija</option>
+                          <option>PI - Pilar</option>
+                          <option>PL - Placa Ortopedia</option>
+                          <option>PO - Pontico</option>
+                          <option>PR - Protesis Removible</option>
+                          <option>PT - PRotesis Total</option>
+                          <option>RR - Recto Redicular</option>
+                          <option>RG - Retraccion Gingival</option>
+                          <option>SA - Sin Alteracion</option>
+                          <option>SF - Sellante Fosetas y Fisuras</option>
+                          <option>SU - Suoernmerario</option>
+                          <option>TP - Talla Preprotesis</option>
+                          <option>EX - Extruido</option>
+                          <option>GR - Gresion</option>
+                          <option>IN - Intruido</option>
+                          <option>RS - Rotacion Severa</option>
+                          <option>I - Incisal</option>
+                          <option>RR - Resto Radicular</option>
+                          <option>C - Cervical</option>
+                          <option>D - Distal</option>
+                          <option>L - Lingual</option>
+                          <option>M - Mesial</option>
+                          <option>O - Oclusal</option>
+                          <option>P - Palatino</option>
+                          <option>V - Vestibular</option>
+                          <option>VE - Version</option>
+                        </select>
+                        <div class="invalid-feedback">
+                          Please provide a valid state.
+                        </div>
+                      </div>
+  
+                      <div class="col-md-3 mb-3">
+                          <label for="state">Inferior 05</label>
+                          <select class="custom-select d-block w-52" id="state" required="">
+                            <option value="">Elige Estado</option>
+                            <option>AA - Ausente Antiguo+espacio</option>
+                            <option>AR - Ausente Reciente</option>
+                            <option>AB - Abrasion</option>
+                            <option>AT - Atricion</option>
+                            <option>AP - Apiñamiento</option>
+                            <option>C - Caries+sup+grado severidad</option>
+                            <option>CA - Calculos</option>
+                            <option>CC - Corona Completa</option>
+                            <option>CE - Corona Material Estetico</option>
+                            <option>DA - Diastema</option>
+                            <option>DC - Destruccion Coronal</option>
+                            <option>DI - Diente Incluido</option>
+                            <option>DL - Desgaste Leve</option>
+                            <option>DM - Desgaste Moderado Superior</option>
+                            <option>DS - Desgaste Severo Superior</option>
+                            <option>EP - Enfermedad Periodontal</option>
+                            <option>ER - Erosion</option>
+                            <option>FA - Fractura Antigua+superficie</option>
+                            <option>FR - Fractura Reciente+Superficie</option>
+                            <option>FI - Fragmento Incompleto</option>
+                            <option>HI - Hipoplasia</option>
+                            <option>IE - Incrustacion Estetica+sup</option>
+                            <option>IM - Incrustacion Metalica+sup</option>
+                            <option>MA - Macrodoncia</option>
+                            <option>NU - Nucleo</option>
+                            <option>OE - Obturacion Estetica+sup</option>
+                            <option>OT - Obturacion Temporal+sup</option>
+                            <option>PG - Pigmentacion</option>
+                            <option>PE - Parcialmente Erupcionado</option>
+                            <option>PF - Protesis Fija</option>
+                            <option>PI - Pilar</option>
+                            <option>PL - Placa Ortopedia</option>
+                            <option>PO - Pontico</option>
+                            <option>PR - Protesis Removible</option>
+                            <option>PT - PRotesis Total</option>
+                            <option>RR - Recto Redicular</option>
+                            <option>RG - Retraccion Gingival</option>
+                            <option>SA - Sin Alteracion</option>
+                            <option>SF - Sellante Fosetas y Fisuras</option>
+                            <option>SU - Suoernmerario</option>
+                            <option>TP - Talla Preprotesis</option>
+                            <option>EX - Extruido</option>
+                            <option>GR - Gresion</option>
+                            <option>IN - Intruido</option>
+                            <option>RS - Rotacion Severa</option>
+                            <option>I - Incisal</option>
+                            <option>RR - Resto Radicular</option>
+                            <option>C - Cervical</option>
+                            <option>D - Distal</option>
+                            <option>L - Lingual</option>
+                            <option>M - Mesial</option>
+                            <option>O - Oclusal</option>
+                            <option>P - Palatino</option>
+                            <option>V - Vestibular</option>
+                            <option>VE - Version</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            Please provide a valid state.
+                          </div>
+                        </div>
+  
+                        <div class="col-md-3 mb-3">
+                            <label for="state">Inferior 06</label>
+                            <select class="custom-select d-block w-52" id="state" required="">
+                              <option value="">Elige Estado</option>
+                              <option>AA - Ausente Antiguo+espacio</option>
+                              <option>AR - Ausente Reciente</option>
+                              <option>AB - Abrasion</option>
+                              <option>AT - Atricion</option>
+                              <option>AP - Apiñamiento</option>
+                              <option>C - Caries+sup+grado severidad</option>
+                              <option>CA - Calculos</option>
+                              <option>CC - Corona Completa</option>
+                              <option>CE - Corona Material Estetico</option>
+                              <option>DA - Diastema</option>
+                              <option>DC - Destruccion Coronal</option>
+                              <option>DI - Diente Incluido</option>
+                              <option>DL - Desgaste Leve</option>
+                              <option>DM - Desgaste Moderado Superior</option>
+                              <option>DS - Desgaste Severo Superior</option>
+                              <option>EP - Enfermedad Periodontal</option>
+                              <option>ER - Erosion</option>
+                              <option>FA - Fractura Antigua+superficie</option>
+                              <option>FR - Fractura Reciente+Superficie</option>
+                              <option>FI - Fragmento Incompleto</option>
+                              <option>HI - Hipoplasia</option>
+                              <option>IE - Incrustacion Estetica+sup</option>
+                              <option>IM - Incrustacion Metalica+sup</option>
+                              <option>MA - Macrodoncia</option>
+                              <option>NU - Nucleo</option>
+                              <option>OE - Obturacion Estetica+sup</option>
+                              <option>OT - Obturacion Temporal+sup</option>
+                              <option>PG - Pigmentacion</option>
+                              <option>PE - Parcialmente Erupcionado</option>
+                              <option>PF - Protesis Fija</option>
+                              <option>PI - Pilar</option>
+                              <option>PL - Placa Ortopedia</option>
+                              <option>PO - Pontico</option>
+                              <option>PR - Protesis Removible</option>
+                              <option>PT - PRotesis Total</option>
+                              <option>RR - Recto Redicular</option>
+                              <option>RG - Retraccion Gingival</option>
+                              <option>SA - Sin Alteracion</option>
+                              <option>SF - Sellante Fosetas y Fisuras</option>
+                              <option>SU - Suoernmerario</option>
+                              <option>TP - Talla Preprotesis</option>
+                              <option>EX - Extruido</option>
+                              <option>GR - Gresion</option>
+                              <option>IN - Intruido</option>
+                              <option>RS - Rotacion Severa</option>
+                              <option>I - Incisal</option>
+                              <option>RR - Resto Radicular</option>
+                              <option>C - Cervical</option>
+                              <option>D - Distal</option>
+                              <option>L - Lingual</option>
+                              <option>M - Mesial</option>
+                              <option>O - Oclusal</option>
+                              <option>P - Palatino</option>
+                              <option>V - Vestibular</option>
+                              <option>VE - Version</option>
+                            </select>
+                            <div class="invalid-feedback">
+                              Please provide a valid state.
+                            </div>
+                          </div>
+  
+                          <div class="col-md-3 mb-3">
+                              <label for="state">Inferior 07</label>
+                              <select class="custom-select d-block w-52" id="state" required="">
+                                <option value="">Elige Estado</option>
+                                <option>AA - Ausente Antiguo+espacio</option>
+                                <option>AR - Ausente Reciente</option>
+                                <option>AB - Abrasion</option>
+                                <option>AT - Atricion</option>
+                                <option>AP - Apiñamiento</option>
+                                <option>C - Caries+sup+grado severidad</option>
+                                <option>CA - Calculos</option>
+                                <option>CC - Corona Completa</option>
+                                <option>CE - Corona Material Estetico</option>
+                                <option>DA - Diastema</option>
+                                <option>DC - Destruccion Coronal</option>
+                                <option>DI - Diente Incluido</option>
+                                <option>DL - Desgaste Leve</option>
+                                <option>DM - Desgaste Moderado Superior</option>
+                                <option>DS - Desgaste Severo Superior</option>
+                                <option>EP - Enfermedad Periodontal</option>
+                                <option>ER - Erosion</option>
+                                <option>FA - Fractura Antigua+superficie</option>
+                                <option>FR - Fractura Reciente+Superficie</option>
+                                <option>FI - Fragmento Incompleto</option>
+                                <option>HI - Hipoplasia</option>
+                                <option>IE - Incrustacion Estetica+sup</option>
+                                <option>IM - Incrustacion Metalica+sup</option>
+                                <option>MA - Macrodoncia</option>
+                                <option>NU - Nucleo</option>
+                                <option>OE - Obturacion Estetica+sup</option>
+                                <option>OT - Obturacion Temporal+sup</option>
+                                <option>PG - Pigmentacion</option>
+                                <option>PE - Parcialmente Erupcionado</option>
+                                <option>PF - Protesis Fija</option>
+                                <option>PI - Pilar</option>
+                                <option>PL - Placa Ortopedia</option>
+                                <option>PO - Pontico</option>
+                                <option>PR - Protesis Removible</option>
+                                <option>PT - PRotesis Total</option>
+                                <option>RR - Recto Redicular</option>
+                                <option>RG - Retraccion Gingival</option>
+                                <option>SA - Sin Alteracion</option>
+                                <option>SF - Sellante Fosetas y Fisuras</option>
+                                <option>SU - Suoernmerario</option>
+                                <option>TP - Talla Preprotesis</option>
+                                <option>EX - Extruido</option>
+                                <option>GR - Gresion</option>
+                                <option>IN - Intruido</option>
+                                <option>RS - Rotacion Severa</option>
+                                <option>I - Incisal</option>
+                                <option>RR - Resto Radicular</option>
+                                <option>C - Cervical</option>
+                                <option>D - Distal</option>
+                                <option>L - Lingual</option>
+                                <option>M - Mesial</option>
+                                <option>O - Oclusal</option>
+                                <option>P - Palatino</option>
+                                <option>V - Vestibular</option>
+                                <option>VE - Version</option>
+                              </select>
+                              <div class="invalid-feedback">
+                                Please provide a valid state.
+                              </div>
+                            </div>
+  
+                            <div class="col-md-3 mb-3">
+                                <label for="state">Inferior 08</label>
+                                <select class="custom-select d-block w-52" id="state" required="">
+                                  <option value="">Elige Estado</option>
+                                  <option>AA - Ausente Antiguo+espacio</option>
+                                  <option>AR - Ausente Reciente</option>
+                                  <option>AB - Abrasion</option>
+                                  <option>AT - Atricion</option>
+                                  <option>AP - Apiñamiento</option>
+                                  <option>C - Caries+sup+grado severidad</option>
+                                  <option>CA - Calculos</option>
+                                  <option>CC - Corona Completa</option>
+                                  <option>CE - Corona Material Estetico</option>
+                                  <option>DA - Diastema</option>
+                                  <option>DC - Destruccion Coronal</option>
+                                  <option>DI - Diente Incluido</option>
+                                  <option>DL - Desgaste Leve</option>
+                                  <option>DM - Desgaste Moderado Superior</option>
+                                  <option>DS - Desgaste Severo Superior</option>
+                                  <option>EP - Enfermedad Periodontal</option>
+                                  <option>ER - Erosion</option>
+                                  <option>FA - Fractura Antigua+superficie</option>
+                                  <option>FR - Fractura Reciente+Superficie</option>
+                                  <option>FI - Fragmento Incompleto</option>
+                                  <option>HI - Hipoplasia</option>
+                                  <option>IE - Incrustacion Estetica+sup</option>
+                                  <option>IM - Incrustacion Metalica+sup</option>
+                                  <option>MA - Macrodoncia</option>
+                                  <option>NU - Nucleo</option>
+                                  <option>OE - Obturacion Estetica+sup</option>
+                                  <option>OT - Obturacion Temporal+sup</option>
+                                  <option>PG - Pigmentacion</option>
+                                  <option>PE - Parcialmente Erupcionado</option>
+                                  <option>PF - Protesis Fija</option>
+                                  <option>PI - Pilar</option>
+                                  <option>PL - Placa Ortopedia</option>
+                                  <option>PO - Pontico</option>
+                                  <option>PR - Protesis Removible</option>
+                                  <option>PT - PRotesis Total</option>
+                                  <option>RR - Recto Redicular</option>
+                                  <option>RG - Retraccion Gingival</option>
+                                  <option>SA - Sin Alteracion</option>
+                                  <option>SF - Sellante Fosetas y Fisuras</option>
+                                  <option>SU - Suoernmerario</option>
+                                  <option>TP - Talla Preprotesis</option>
+                                  <option>EX - Extruido</option>
+                                  <option>GR - Gresion</option>
+                                  <option>IN - Intruido</option>
+                                  <option>RS - Rotacion Severa</option>
+                                  <option>I - Incisal</option>
+                                  <option>RR - Resto Radicular</option>
+                                  <option>C - Cervical</option>
+                                  <option>D - Distal</option>
+                                  <option>L - Lingual</option>
+                                  <option>M - Mesial</option>
+                                  <option>O - Oclusal</option>
+                                  <option>P - Palatino</option>
+                                  <option>V - Vestibular</option>
+                                  <option>VE - Version</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                  Please provide a valid state.
+                                </div>
+                              </div>
+  
+                              <div class="col-md-3 mb-3">
+                                  <label for="state">Inferior 09</label>
+                                  <select class="custom-select d-block w-52" id="state" required="">
+                                    <option value="">Elige Estado</option>
+                                    <option>AA - Ausente Antiguo+espacio</option>
+                                    <option>AR - Ausente Reciente</option>
+                                    <option>AB - Abrasion</option>
+                                    <option>AT - Atricion</option>
+                                    <option>AP - Apiñamiento</option>
+                                    <option>C - Caries+sup+grado severidad</option>
+                                    <option>CA - Calculos</option>
+                                    <option>CC - Corona Completa</option>
+                                    <option>CE - Corona Material Estetico</option>
+                                    <option>DA - Diastema</option>
+                                    <option>DC - Destruccion Coronal</option>
+                                    <option>DI - Diente Incluido</option>
+                                    <option>DL - Desgaste Leve</option>
+                                    <option>DM - Desgaste Moderado Superior</option>
+                                    <option>DS - Desgaste Severo Superior</option>
+                                    <option>EP - Enfermedad Periodontal</option>
+                                    <option>ER - Erosion</option>
+                                    <option>FA - Fractura Antigua+superficie</option>
+                                    <option>FR - Fractura Reciente+Superficie</option>
+                                    <option>FI - Fragmento Incompleto</option>
+                                    <option>HI - Hipoplasia</option>
+                                    <option>IE - Incrustacion Estetica+sup</option>
+                                    <option>IM - Incrustacion Metalica+sup</option>
+                                    <option>MA - Macrodoncia</option>
+                                    <option>NU - Nucleo</option>
+                                    <option>OE - Obturacion Estetica+sup</option>
+                                    <option>OT - Obturacion Temporal+sup</option>
+                                    <option>PG - Pigmentacion</option>
+                                    <option>PE - Parcialmente Erupcionado</option>
+                                    <option>PF - Protesis Fija</option>
+                                    <option>PI - Pilar</option>
+                                    <option>PL - Placa Ortopedia</option>
+                                    <option>PO - Pontico</option>
+                                    <option>PR - Protesis Removible</option>
+                                    <option>PT - PRotesis Total</option>
+                                    <option>RR - Recto Redicular</option>
+                                    <option>RG - Retraccion Gingival</option>
+                                    <option>SA - Sin Alteracion</option>
+                                    <option>SF - Sellante Fosetas y Fisuras</option>
+                                    <option>SU - Suoernmerario</option>
+                                    <option>TP - Talla Preprotesis</option>
+                                    <option>EX - Extruido</option>
+                                    <option>GR - Gresion</option>
+                                    <option>IN - Intruido</option>
+                                    <option>RS - Rotacion Severa</option>
+                                    <option>I - Incisal</option>
+                                    <option>RR - Resto Radicular</option>
+                                    <option>C - Cervical</option>
+                                    <option>D - Distal</option>
+                                    <option>L - Lingual</option>
+                                    <option>M - Mesial</option>
+                                    <option>O - Oclusal</option>
+                                    <option>P - Palatino</option>
+                                    <option>V - Vestibular</option>
+                                    <option>VE - Version</option>
+                                  </select>
+                                  <div class="invalid-feedback">
+                                    Please provide a valid state.
+                                  </div>
+                                </div>
+  
+                                <div class="col-md-3 mb-3">
+                                    <label for="state">Inferior 10</label>
+                                    <select class="custom-select d-block w-52" id="state" required="">
+                                      <option value="">Elige Estado</option>
+                                      <option>AA - Ausente Antiguo+espacio</option>
+                                      <option>AR - Ausente Reciente</option>
+                                      <option>AB - Abrasion</option>
+                                      <option>AT - Atricion</option>
+                                      <option>AP - Apiñamiento</option>
+                                      <option>C - Caries+sup+grado severidad</option>
+                                      <option>CA - Calculos</option>
+                                      <option>CC - Corona Completa</option>
+                                      <option>CE - Corona Material Estetico</option>
+                                      <option>DA - Diastema</option>
+                                      <option>DC - Destruccion Coronal</option>
+                                      <option>DI - Diente Incluido</option>
+                                      <option>DL - Desgaste Leve</option>
+                                      <option>DM - Desgaste Moderado Superior</option>
+                                      <option>DS - Desgaste Severo Superior</option>
+                                      <option>EP - Enfermedad Periodontal</option>
+                                      <option>ER - Erosion</option>
+                                      <option>FA - Fractura Antigua+superficie</option>
+                                      <option>FR - Fractura Reciente+Superficie</option>
+                                      <option>FI - Fragmento Incompleto</option>
+                                      <option>HI - Hipoplasia</option>
+                                      <option>IE - Incrustacion Estetica+sup</option>
+                                      <option>IM - Incrustacion Metalica+sup</option>
+                                      <option>MA - Macrodoncia</option>
+                                      <option>NU - Nucleo</option>
+                                      <option>OE - Obturacion Estetica+sup</option>
+                                      <option>OT - Obturacion Temporal+sup</option>
+                                      <option>PG - Pigmentacion</option>
+                                      <option>PE - Parcialmente Erupcionado</option>
+                                      <option>PF - Protesis Fija</option>
+                                      <option>PI - Pilar</option>
+                                      <option>PL - Placa Ortopedia</option>
+                                      <option>PO - Pontico</option>
+                                      <option>PR - Protesis Removible</option>
+                                      <option>PT - PRotesis Total</option>
+                                      <option>RR - Recto Redicular</option>
+                                      <option>RG - Retraccion Gingival</option>
+                                      <option>SA - Sin Alteracion</option>
+                                      <option>SF - Sellante Fosetas y Fisuras</option>
+                                      <option>SU - Suoernmerario</option>
+                                      <option>TP - Talla Preprotesis</option>
+                                      <option>EX - Extruido</option>
+                                      <option>GR - Gresion</option>
+                                      <option>IN - Intruido</option>
+                                      <option>RS - Rotacion Severa</option>
+                                      <option>I - Incisal</option>
+                                      <option>RR - Resto Radicular</option>
+                                      <option>C - Cervical</option>
+                                      <option>D - Distal</option>
+                                      <option>L - Lingual</option>
+                                      <option>M - Mesial</option>
+                                      <option>O - Oclusal</option>
+                                      <option>P - Palatino</option>
+                                      <option>V - Vestibular</option>
+                                      <option>VE - Version</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                      Please provide a valid state.
+                                    </div>
+                                  </div>
+  
+                                  <div class="col-md-3 mb-3">
+                                      <label for="state">Inferior 11</label>
+                                      <select class="custom-select d-block w-52" id="state" required="">
+                                        <option value="">Elige Estado</option>
+                                        <option>AA - Ausente Antiguo+espacio</option>
+                                        <option>AR - Ausente Reciente</option>
+                                        <option>AB - Abrasion</option>
+                                        <option>AT - Atricion</option>
+                                        <option>AP - Apiñamiento</option>
+                                        <option>C - Caries+sup+grado severidad</option>
+                                        <option>CA - Calculos</option>
+                                        <option>CC - Corona Completa</option>
+                                        <option>CE - Corona Material Estetico</option>
+                                        <option>DA - Diastema</option>
+                                        <option>DC - Destruccion Coronal</option>
+                                        <option>DI - Diente Incluido</option>
+                                        <option>DL - Desgaste Leve</option>
+                                        <option>DM - Desgaste Moderado Superior</option>
+                                        <option>DS - Desgaste Severo Superior</option>
+                                        <option>EP - Enfermedad Periodontal</option>
+                                        <option>ER - Erosion</option>
+                                        <option>FA - Fractura Antigua+superficie</option>
+                                        <option>FR - Fractura Reciente+Superficie</option>
+                                        <option>FI - Fragmento Incompleto</option>
+                                        <option>HI - Hipoplasia</option>
+                                        <option>IE - Incrustacion Estetica+sup</option>
+                                        <option>IM - Incrustacion Metalica+sup</option>
+                                        <option>MA - Macrodoncia</option>
+                                        <option>NU - Nucleo</option>
+                                        <option>OE - Obturacion Estetica+sup</option>
+                                        <option>OT - Obturacion Temporal+sup</option>
+                                        <option>PG - Pigmentacion</option>
+                                        <option>PE - Parcialmente Erupcionado</option>
+                                        <option>PF - Protesis Fija</option>
+                                        <option>PI - Pilar</option>
+                                        <option>PL - Placa Ortopedia</option>
+                                        <option>PO - Pontico</option>
+                                        <option>PR - Protesis Removible</option>
+                                        <option>PT - PRotesis Total</option>
+                                        <option>RR - Recto Redicular</option>
+                                        <option>RG - Retraccion Gingival</option>
+                                        <option>SA - Sin Alteracion</option>
+                                        <option>SF - Sellante Fosetas y Fisuras</option>
+                                        <option>SU - Suoernmerario</option>
+                                        <option>TP - Talla Preprotesis</option>
+                                        <option>EX - Extruido</option>
+                                        <option>GR - Gresion</option>
+                                        <option>IN - Intruido</option>
+                                        <option>RS - Rotacion Severa</option>
+                                        <option>I - Incisal</option>
+                                        <option>RR - Resto Radicular</option>
+                                        <option>C - Cervical</option>
+                                        <option>D - Distal</option>
+                                        <option>L - Lingual</option>
+                                        <option>M - Mesial</option>
+                                        <option>O - Oclusal</option>
+                                        <option>P - Palatino</option>
+                                        <option>V - Vestibular</option>
+                                        <option>VE - Version</option>
+                                      </select>
+                                      <div class="invalid-feedback">
+                                        Please provide a valid state.
+                                      </div>
+                                    </div>
+  
+                                    <div class="col-md-3 mb-3">
+                                        <label for="state">Inferior 12</label>
+                                        <select class="custom-select d-block w-52" id="state" required="">
+                                          <option value="">Elige Estado</option>
+                                          <option>AA - Ausente Antiguo+espacio</option>
+                                          <option>AR - Ausente Reciente</option>
+                                          <option>AB - Abrasion</option>
+                                          <option>AT - Atricion</option>
+                                          <option>AP - Apiñamiento</option>
+                                          <option>C - Caries+sup+grado severidad</option>
+                                          <option>CA - Calculos</option>
+                                          <option>CC - Corona Completa</option>
+                                          <option>CE - Corona Material Estetico</option>
+                                          <option>DA - Diastema</option>
+                                          <option>DC - Destruccion Coronal</option>
+                                          <option>DI - Diente Incluido</option>
+                                          <option>DL - Desgaste Leve</option>
+                                          <option>DM - Desgaste Moderado Superior</option>
+                                          <option>DS - Desgaste Severo Superior</option>
+                                          <option>EP - Enfermedad Periodontal</option>
+                                          <option>ER - Erosion</option>
+                                          <option>FA - Fractura Antigua+superficie</option>
+                                          <option>FR - Fractura Reciente+Superficie</option>
+                                          <option>FI - Fragmento Incompleto</option>
+                                          <option>HI - Hipoplasia</option>
+                                          <option>IE - Incrustacion Estetica+sup</option>
+                                          <option>IM - Incrustacion Metalica+sup</option>
+                                          <option>MA - Macrodoncia</option>
+                                          <option>NU - Nucleo</option>
+                                          <option>OE - Obturacion Estetica+sup</option>
+                                          <option>OT - Obturacion Temporal+sup</option>
+                                          <option>PG - Pigmentacion</option>
+                                          <option>PE - Parcialmente Erupcionado</option>
+                                          <option>PF - Protesis Fija</option>
+                                          <option>PI - Pilar</option>
+                                          <option>PL - Placa Ortopedia</option>
+                                          <option>PO - Pontico</option>
+                                          <option>PR - Protesis Removible</option>
+                                          <option>PT - PRotesis Total</option>
+                                          <option>RR - Recto Redicular</option>
+                                          <option>RG - Retraccion Gingival</option>
+                                          <option>SA - Sin Alteracion</option>
+                                          <option>SF - Sellante Fosetas y Fisuras</option>
+                                          <option>SU - Suoernmerario</option>
+                                          <option>TP - Talla Preprotesis</option>
+                                          <option>EX - Extruido</option>
+                                          <option>GR - Gresion</option>
+                                          <option>IN - Intruido</option>
+                                          <option>RS - Rotacion Severa</option>
+                                          <option>I - Incisal</option>
+                                          <option>RR - Resto Radicular</option>
+                                          <option>C - Cervical</option>
+                                          <option>D - Distal</option>
+                                          <option>L - Lingual</option>
+                                          <option>M - Mesial</option>
+                                          <option>O - Oclusal</option>
+                                          <option>P - Palatino</option>
+                                          <option>V - Vestibular</option>
+                                          <option>VE - Version</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                          Please provide a valid state.
+                                        </div>
+                                      </div>
+  
+                                      <div class="col-md-3 mb-3">
+                                          <label for="state">Inferior 13</label>
+                                          <select class="custom-select d-block w-52" id="state" required="">
+                                            <option value="">Elige Estado</option>
+                                            <option>AA - Ausente Antiguo+espacio</option>
+                                            <option>AR - Ausente Reciente</option>
+                                            <option>AB - Abrasion</option>
+                                            <option>AT - Atricion</option>
+                                            <option>AP - Apiñamiento</option>
+                                            <option>C - Caries+sup+grado severidad</option>
+                                            <option>CA - Calculos</option>
+                                            <option>CC - Corona Completa</option>
+                                            <option>CE - Corona Material Estetico</option>
+                                            <option>DA - Diastema</option>
+                                            <option>DC - Destruccion Coronal</option>
+                                            <option>DI - Diente Incluido</option>
+                                            <option>DL - Desgaste Leve</option>
+                                            <option>DM - Desgaste Moderado Superior</option>
+                                            <option>DS - Desgaste Severo Superior</option>
+                                            <option>EP - Enfermedad Periodontal</option>
+                                            <option>ER - Erosion</option>
+                                            <option>FA - Fractura Antigua+superficie</option>
+                                            <option>FR - Fractura Reciente+Superficie</option>
+                                            <option>FI - Fragmento Incompleto</option>
+                                            <option>HI - Hipoplasia</option>
+                                            <option>IE - Incrustacion Estetica+sup</option>
+                                            <option>IM - Incrustacion Metalica+sup</option>
+                                            <option>MA - Macrodoncia</option>
+                                            <option>NU - Nucleo</option>
+                                            <option>OE - Obturacion Estetica+sup</option>
+                                            <option>OT - Obturacion Temporal+sup</option>
+                                            <option>PG - Pigmentacion</option>
+                                            <option>PE - Parcialmente Erupcionado</option>
+                                            <option>PF - Protesis Fija</option>
+                                            <option>PI - Pilar</option>
+                                            <option>PL - Placa Ortopedia</option>
+                                            <option>PO - Pontico</option>
+                                            <option>PR - Protesis Removible</option>
+                                            <option>PT - PRotesis Total</option>
+                                            <option>RR - Recto Redicular</option>
+                                            <option>RG - Retraccion Gingival</option>
+                                            <option>SA - Sin Alteracion</option>
+                                            <option>SF - Sellante Fosetas y Fisuras</option>
+                                            <option>SU - Suoernmerario</option>
+                                            <option>TP - Talla Preprotesis</option>
+                                            <option>EX - Extruido</option>
+                                            <option>GR - Gresion</option>
+                                            <option>IN - Intruido</option>
+                                            <option>RS - Rotacion Severa</option>
+                                            <option>I - Incisal</option>
+                                            <option>RR - Resto Radicular</option>
+                                            <option>C - Cervical</option>
+                                            <option>D - Distal</option>
+                                            <option>L - Lingual</option>
+                                            <option>M - Mesial</option>
+                                            <option>O - Oclusal</option>
+                                            <option>P - Palatino</option>
+                                            <option>V - Vestibular</option>
+                                            <option>VE - Version</option>
+                                          </select>
+                                          <div class="invalid-feedback">
+                                            Please provide a valid state.
+                                          </div>
+                                        </div>
+  
+                                        <div class="col-md-3 mb-3">
+                                            <label for="state">Inferior 14</label>
+                                            <select class="custom-select d-block w-52" id="state" required="">
+                                              <option value="">Elige Estado</option>
+                                              <option>AA - Ausente Antiguo+espacio</option>
+                                              <option>AR - Ausente Reciente</option>
+                                              <option>AB - Abrasion</option>
+                                              <option>AT - Atricion</option>
+                                              <option>AP - Apiñamiento</option>
+                                              <option>C - Caries+sup+grado severidad</option>
+                                              <option>CA - Calculos</option>
+                                              <option>CC - Corona Completa</option>
+                                              <option>CE - Corona Material Estetico</option>
+                                              <option>DA - Diastema</option>
+                                              <option>DC - Destruccion Coronal</option>
+                                              <option>DI - Diente Incluido</option>
+                                              <option>DL - Desgaste Leve</option>
+                                              <option>DM - Desgaste Moderado Superior</option>
+                                              <option>DS - Desgaste Severo Superior</option>
+                                              <option>EP - Enfermedad Periodontal</option>
+                                              <option>ER - Erosion</option>
+                                              <option>FA - Fractura Antigua+superficie</option>
+                                              <option>FR - Fractura Reciente+Superficie</option>
+                                              <option>FI - Fragmento Incompleto</option>
+                                              <option>HI - Hipoplasia</option>
+                                              <option>IE - Incrustacion Estetica+sup</option>
+                                              <option>IM - Incrustacion Metalica+sup</option>
+                                              <option>MA - Macrodoncia</option>
+                                              <option>NU - Nucleo</option>
+                                              <option>OE - Obturacion Estetica+sup</option>
+                                              <option>OT - Obturacion Temporal+sup</option>
+                                              <option>PG - Pigmentacion</option>
+                                              <option>PE - Parcialmente Erupcionado</option>
+                                              <option>PF - Protesis Fija</option>
+                                              <option>PI - Pilar</option>
+                                              <option>PL - Placa Ortopedia</option>
+                                              <option>PO - Pontico</option>
+                                              <option>PR - Protesis Removible</option>
+                                              <option>PT - PRotesis Total</option>
+                                              <option>RR - Recto Redicular</option>
+                                              <option>RG - Retraccion Gingival</option>
+                                              <option>SA - Sin Alteracion</option>
+                                              <option>SF - Sellante Fosetas y Fisuras</option>
+                                              <option>SU - Suoernmerario</option>
+                                              <option>TP - Talla Preprotesis</option>
+                                              <option>EX - Extruido</option>
+                                              <option>GR - Gresion</option>
+                                              <option>IN - Intruido</option>
+                                              <option>RS - Rotacion Severa</option>
+                                              <option>I - Incisal</option>
+                                              <option>RR - Resto Radicular</option>
+                                              <option>C - Cervical</option>
+                                              <option>D - Distal</option>
+                                              <option>L - Lingual</option>
+                                              <option>M - Mesial</option>
+                                              <option>O - Oclusal</option>
+                                              <option>P - Palatino</option>
+                                              <option>V - Vestibular</option>
+                                              <option>VE - Version</option>
+                                            </select>
+                                            <div class="invalid-feedback">
+                                              Please provide a valid state.
+                                            </div>
+                                          </div>
+  
+                                          <div class="col-md-3 mb-3">
+                                              <label for="state">Inferior 15</label>
+                                              <select class="custom-select d-block w-52" id="state" required="">
+                                                <option value="">Elige Estado</option>
+                                                <option>AA - Ausente Antiguo+espacio</option>
+                                                <option>AR - Ausente Reciente</option>
+                                                <option>AB - Abrasion</option>
+                                                <option>AT - Atricion</option>
+                                                <option>AP - Apiñamiento</option>
+                                                <option>C - Caries+sup+grado severidad</option>
+                                                <option>CA - Calculos</option>
+                                                <option>CC - Corona Completa</option>
+                                                <option>CE - Corona Material Estetico</option>
+                                                <option>DA - Diastema</option>
+                                                <option>DC - Destruccion Coronal</option>
+                                                <option>DI - Diente Incluido</option>
+                                                <option>DL - Desgaste Leve</option>
+                                                <option>DM - Desgaste Moderado Superior</option>
+                                                <option>DS - Desgaste Severo Superior</option>
+                                                <option>EP - Enfermedad Periodontal</option>
+                                                <option>ER - Erosion</option>
+                                                <option>FA - Fractura Antigua+superficie</option>
+                                                <option>FR - Fractura Reciente+Superficie</option>
+                                                <option>FI - Fragmento Incompleto</option>
+                                                <option>HI - Hipoplasia</option>
+                                                <option>IE - Incrustacion Estetica+sup</option>
+                                                <option>IM - Incrustacion Metalica+sup</option>
+                                                <option>MA - Macrodoncia</option>
+                                                <option>NU - Nucleo</option>
+                                                <option>OE - Obturacion Estetica+sup</option>
+                                                <option>OT - Obturacion Temporal+sup</option>
+                                                <option>PG - Pigmentacion</option>
+                                                <option>PE - Parcialmente Erupcionado</option>
+                                                <option>PF - Protesis Fija</option>
+                                                <option>PI - Pilar</option>
+                                                <option>PL - Placa Ortopedia</option>
+                                                <option>PO - Pontico</option>
+                                                <option>PR - Protesis Removible</option>
+                                                <option>PT - PRotesis Total</option>
+                                                <option>RR - Recto Redicular</option>
+                                                <option>RG - Retraccion Gingival</option>
+                                                <option>SA - Sin Alteracion</option>
+                                                <option>SF - Sellante Fosetas y Fisuras</option>
+                                                <option>SU - Suoernmerario</option>
+                                                <option>TP - Talla Preprotesis</option>
+                                                <option>EX - Extruido</option>
+                                                <option>GR - Gresion</option>
+                                                <option>IN - Intruido</option>
+                                                <option>RS - Rotacion Severa</option>
+                                                <option>I - Incisal</option>
+                                                <option>RR - Resto Radicular</option>
+                                                <option>C - Cervical</option>
+                                                <option>D - Distal</option>
+                                                <option>L - Lingual</option>
+                                                <option>M - Mesial</option>
+                                                <option>O - Oclusal</option>
+                                                <option>P - Palatino</option>
+                                                <option>V - Vestibular</option>
+                                                <option>VE - Version</option>
+                                              </select>
+                                              <div class="invalid-feedback">
+                                                Please provide a valid state.
+                                              </div>
+                                            </div>
+  
+                                            <div class="col-md-3 mb-3">
+                                                <label for="state">Inferior 16</label>
+                                                <select class="custom-select d-block w-52" id="state" required="">
+                                                  <option value="">Elige Estado</option>
+                                                  <option>AA - Ausente Antiguo+espacio</option>
+                                                  <option>AR - Ausente Reciente</option>
+                                                  <option>AB - Abrasion</option>
+                                                  <option>AT - Atricion</option>
+                                                  <option>AP - Apiñamiento</option>
+                                                  <option>C - Caries+sup+grado severidad</option>
+                                                  <option>CA - Calculos</option>
+                                                  <option>CC - Corona Completa</option>
+                                                  <option>CE - Corona Material Estetico</option>
+                                                  <option>DA - Diastema</option>
+                                                  <option>DC - Destruccion Coronal</option>
+                                                  <option>DI - Diente Incluido</option>
+                                                  <option>DL - Desgaste Leve</option>
+                                                  <option>DM - Desgaste Moderado Superior</option>
+                                                  <option>DS - Desgaste Severo Superior</option>
+                                                  <option>EP - Enfermedad Periodontal</option>
+                                                  <option>ER - Erosion</option>
+                                                  <option>FA - Fractura Antigua+superficie</option>
+                                                  <option>FR - Fractura Reciente+Superficie</option>
+                                                  <option>FI - Fragmento Incompleto</option>
+                                                  <option>HI - Hipoplasia</option>
+                                                  <option>IE - Incrustacion Estetica+sup</option>
+                                                  <option>IM - Incrustacion Metalica+sup</option>
+                                                  <option>MA - Macrodoncia</option>
+                                                  <option>NU - Nucleo</option>
+                                                  <option>OE - Obturacion Estetica+sup</option>
+                                                  <option>OT - Obturacion Temporal+sup</option>
+                                                  <option>PG - Pigmentacion</option>
+                                                  <option>PE - Parcialmente Erupcionado</option>
+                                                  <option>PF - Protesis Fija</option>
+                                                  <option>PI - Pilar</option>
+                                                  <option>PL - Placa Ortopedia</option>
+                                                  <option>PO - Pontico</option>
+                                                  <option>PR - Protesis Removible</option>
+                                                  <option>PT - PRotesis Total</option>
+                                                  <option>RR - Recto Redicular</option>
+                                                  <option>RG - Retraccion Gingival</option>
+                                                  <option>SA - Sin Alteracion</option>
+                                                  <option>SF - Sellante Fosetas y Fisuras</option>
+                                                  <option>SU - Suoernmerario</option>
+                                                  <option>TP - Talla Preprotesis</option>
+                                                  <option>EX - Extruido</option>
+                                                  <option>GR - Gresion</option>
+                                                  <option>IN - Intruido</option>
+                                                  <option>RS - Rotacion Severa</option>
+                                                  <option>I - Incisal</option>
+                                                  <option>RR - Resto Radicular</option>
+                                                  <option>C - Cervical</option>
+                                                  <option>D - Distal</option>
+                                                  <option>L - Lingual</option>
+                                                  <option>M - Mesial</option>
+                                                  <option>O - Oclusal</option>
+                                                  <option>P - Palatino</option>
+                                                  <option>V - Vestibular</option>
+                                                  <option>VE - Version</option>
+                                                </select>
+                                                <div class="invalid-feedback">
+                                                  Please provide a valid state.
+                                                </div>
+                                              </div>
+  
+  
+  
+              </div>
+              
+            </form>
+          </div>
+          
+        </div>
+        <hr class="mb-4" />
+      </div>
+
+      <div class="container">
+          <div class="row">
+            <div class="col-md-12 order-md-1">
+                <h4 class="mb-3">Datos sobre la consulta</h4>
+              <form class="needs-validation" novalidate="">
+                <div class="row">
+                  <textarea name="comentarios" rows="20" cols="100"></textarea>
+  
+                </div>
+                
+              </form>
+            </div>
+            
+          </div>
+          <hr class="mb-4" />
+                <div class="row">
+                    <div class="col-md-12 order-md-1">
+                      <button class="btn btn-primary btn-lg btn-block" type="submit">Registrar</button>
+                      <p></p>
+                    </div>
+                </div>
+        </div>
+
+      
+  </body>
